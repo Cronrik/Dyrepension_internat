@@ -1,5 +1,6 @@
-header {
-  margin-top: 0.5rem;
+body {
+  margin: 0;
+  padding: 0;
 }
 header nav {
   display: flex;
@@ -7,26 +8,29 @@ header nav {
   align-items: center;
   background-color: #333333;
 }
-header nav img {
-  width: 10rem;
+header nav svg {
+  width: 200px;
+  height: 100px;
+  margin-left: 4rem;
 }
 header nav .nav-links {
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
   margin-right: 1.5rem;
+  margin: 0 8rem;
 }
 header nav .nav-links li {
   list-style-type: none;
 }
 header nav .nav-links li a {
   text-decoration: none;
-  color: #111344;
-  font-weight: 500;
+  color: #ffffff;
+  font-weight: 300;
 }
 header nav .nav-links li a:hover {
-  color: #4681f4;
-  font-weight: bold;
+  color: beige;
 }
+/*
 header nav .nav-links li .active {
   border-bottom: #4681f4 0.2rem solid;
   padding-bottom: 0.5rem;
@@ -34,8 +38,105 @@ header nav .nav-links li .active {
 }
 header nav .nav-links li .active:hover {
   color: #111344;
-}
-header nav .nav-items {
+} 
+   header nav .nav-items {
   display: flex;
   align-items: center;
 }
+  */
+
+.footer-kontakt-box {
+  background-color: brown; /*Udskift med potte baggrund*/
+}
+
+.footer-kontakt-box p,
+h2 {
+  margin: 0;
+}
+
+footer {
+  height: 27rem;
+  background-color: #333333;
+  font-size: 1.2rem;
+  max-width: 100vw;
+}
+
+footer h2 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 35% 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  max-height: 25rem;
+}
+
+footer ul {
+  padding-inline-start: 0;
+}
+
+footer li {
+  display: block;
+  list-style-type: none;
+  margin-top: 0.6rem;
+}
+
+footer h2 {
+  display: flex;
+  align-items: center;
+  color: #ddd;
+}
+
+.footer-list-style {
+  margin-top: 0.95rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ddd;
+}
+
+footer img {
+  height: auto;
+  width: 18rem;
+  margin-left: 7rem;
+  margin-top: 2.5rem;
+}
+
+.footer-sections {
+  margin-top: 3.5rem;
+  max-height: 12rem;
+  margin-left: -10rem;
+}
+
+.opening-hours-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin-top: -2rem;
+  max-height: 12rem;
+  color: #ddd;
+}
+
+.contact-info-footer {
+  color: #ddd;
+}
+
+.footer-logo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 2rem;
+}
+
+.footer-logo svg {
+  height: 200px;
+  width: 100px;
+}
+
+.menu-section-footer {
+  margin-top: 3.5rem;
+  max-height: 12rem;
+} /*# sourceMappingURL=styles.css.map */
