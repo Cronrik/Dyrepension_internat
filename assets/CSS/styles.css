@@ -164,10 +164,32 @@ input[type="submit"]:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 -100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  /* filter: blur(4px); */
+  filter: grayscale(30%);
+  border-radius: 10px 10px 0 0;
+}
+
+.doner-banner button {
+  max-height: 40%;
+  height: 25%;
+  width: 15%;
+  background-color: #5c5351;
+  color: #fff8f1;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 15px;
+  border: none;
 }
 
 footer {
-  height: 27rem;
+  height: 22rem;
   background-color: #333333;
   font-size: 1.2rem;
   max-width: 100vw;
@@ -219,7 +241,7 @@ footer img {
 }
 
 .footer-sections {
-  margin-top: 3.5rem;
+  /* margin-top: 1rem; */
   max-height: 12rem;
   margin-left: -10rem;
 }
@@ -245,10 +267,9 @@ footer img {
 
 .footer-logo svg {
   height: 200px;
-  width: 100px;
 }
 
 .menu-section-footer {
-  margin-top: 3.5rem;
+  /* margin-top: 1rem; */
   max-height: 12rem;
 } /*# sourceMappingURL=styles.css.map */
