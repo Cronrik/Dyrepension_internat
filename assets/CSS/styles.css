@@ -35,6 +35,7 @@ header nav .nav-links li a {
   text-decoration: none;
   color: #ffffff;
   font-weight: 300;
+  font-size: 1.5rem;
 }
 header nav .nav-links li a:hover {
   color: beige;
