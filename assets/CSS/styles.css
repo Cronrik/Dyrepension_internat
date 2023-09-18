@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #fff8f1;
 }
 
 .main-margin {
@@ -54,6 +55,76 @@ header nav .nav-links li .active:hover {
   align-items: center;
 }
   */
+
+/* ------------------------Banner-------------------------------- */
+
+.hero-banner-img {
+  background-image: url(../Images/eric-ward-ISg37AI2A-s-unsplash.jpg);
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -400px;
+  filter: blur(2px) brightness(70%);
+}
+
+.hero-banner-content {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  text-align: center;
+}
+
+.hero-banner-content h1 {
+  font-size: 4rem;
+}
+
+.hero-banner-content h4 {
+  font-size: 1.5rem;
+  width: 70%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.arrow-down-banner {
+  color: white;
+  margin-top: 20rem;
+}
+/* ---------------------------Introduktion Index ------------------*/
+
+.index-introduction-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5rem 0 5rem 0;
+  color: #38291f;
+}
+
+.index-introduction-text {
+  max-width: 50%;
+}
+
+.index-introduction-text h2 {
+  font-size: 3rem;
+  margin: -5rem 0 1.5rem 0;
+}
+
+.index-introduction-text p {
+  font-size: 1.5rem;
+  margin-top: 0;
+  /* max-width: 90%; */
+}
+
+.index-introduction-image img {
+  max-height: 400px;
+  width: 100%;
+  border-radius: 20px;
+}
 
 /* ---------------------------Footer----------------------------- */
 
