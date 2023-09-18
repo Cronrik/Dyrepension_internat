@@ -60,7 +60,7 @@ header nav .nav-links li .active:hover {
 
 .hero-banner-img {
   background-image: url(../Images/eric-ward-ISg37AI2A-s-unsplash.jpg);
-  height: 800px;
+  height: 600px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 -400px;
@@ -71,7 +71,7 @@ header nav .nav-links li .active:hover {
   color: white;
   font-weight: bold;
   position: absolute;
-  top: 40%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -93,7 +93,7 @@ header nav .nav-links li .active:hover {
 
 .arrow-down-banner {
   color: white;
-  margin-top: 20rem;
+  margin-top: 10rem;
 }
 /* ---------------------------Introduktion Index ------------------*/
 
@@ -121,9 +121,48 @@ header nav .nav-links li .active:hover {
 }
 
 .index-introduction-image img {
-  max-height: 400px;
+  max-height: 350px;
   width: 100%;
   border-radius: 20px;
+}
+
+/* ------------------------Index tjenester----------------------- */
+
+.index-tjenester-logo-flex {
+  margin-top: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.index-tjenester-logo-single {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 25%;
+  text-align: center;
+}
+
+.index-tjenester-logo-img img {
+  max-width: 50%;
+  padding: 1.5rem;
+  overflow: visible;
+  background-color: #fff8f1;
+  border-radius: 50%;
+  filter: drop-shadow(0 0.7rem 0.25rem grey);
+}
+
+.index-tjenester-logo-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: -1rem 0 -2rem;
+}
+
+.index-tjenester-logo-text {
+  font-size: 1.2rem;
+  max-width: 70%;
+  color: #333333;
+  font-weight: 300;
 }
 
 /* ---------------------------Footer----------------------------- */
