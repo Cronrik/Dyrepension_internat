@@ -165,6 +165,71 @@ header nav .nav-links li .active:hover {
   font-weight: 300;
 }
 
+/* ----------------------Index Eksperternes hjørne--------------- */
+
+.index-ekperternes-hjørne {
+  text-align: center;
+}
+
+.index-ekperternes-hjørne-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.index-ekperternes-hjørne-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: left;
+  background-color: brown;
+}
+
+.white-background {
+  background-color: white;
+}
+
+.index-eksperternes-hjørne-left-content img {
+  max-width: 50px;
+}
+
+.index-eksperternes-hjørne-right-content img {
+  max-width: 50px;
+}
+
+.index-eksperternes-hjørne-heading {
+  display: flex;
+  flex-direction: row;
+}
+
+.index-eksperternes-hjørne-left-content h3 {
+  margin: 0.2rem 0 0.2rem 0;
+}
+
+.index-eksperternes-hjørne-left-content p {
+  max-width: 80%;
+  margin: 0.2rem 0 0.2rem 0;
+}
+
+.index-eksperternes-hjørne-right {
+  width: 30%;
+  background-color: brown;
+}
+
+.index-eksperternes-hjørne-content-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.info-divider {
+  height: 10px;
+  width: 2px;
+  background-color: grey;
+}
 /* ---------------------------Footer----------------------------- */
 
 .center-content {
