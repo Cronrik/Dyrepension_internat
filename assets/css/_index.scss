@@ -1,0 +1,391 @@
+// Index Site
+
+/* ------------------------Banner-------------------------------- */
+
+.hero-banner-img {
+  background-image: url(../Images/eric-ward-ISg37AI2A-s-unsplash.jpg);
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -400px;
+  filter: blur(2px) brightness(70%);
+}
+
+.hero-banner-content {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  text-align: center;
+}
+
+.hero-banner-content h1 {
+  font-size: 4rem;
+}
+
+.hero-banner-content h4 {
+  font-size: 1.5rem;
+  width: 70%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.arrow-down-banner {
+  color: white;
+  margin-top: 10rem;
+}
+/* ---------------------------Introduktion Index ------------------*/
+
+.index-introduction-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5rem 0 5rem 0;
+  color: #38291f;
+}
+
+.index-introduction-text {
+  max-width: 50%;
+}
+
+.index-introduction-text h2 {
+  font-size: 3rem;
+  margin: -5rem 0 1.5rem 0;
+}
+
+.index-introduction-text p {
+  font-size: 1.5rem;
+  margin-top: 0;
+  /* max-width: 90%; */
+}
+
+.index-introduction-image img {
+  max-height: 350px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* ------------------------Index tjenester----------------------- */
+
+.index-tjenester-logo-flex {
+  margin-top: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.index-tjenester-logo-single {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 25%;
+  text-align: center;
+}
+
+.index-tjenester-logo-img img {
+  max-width: 50%;
+  padding: 1.5rem;
+  overflow: visible;
+  background-color: #fff8f1;
+  border-radius: 50%;
+  filter: drop-shadow(0 0.7rem 0.25rem grey);
+}
+
+.index-tjenester-logo-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: -1rem 0 -2rem;
+}
+
+.index-tjenester-logo-text {
+  font-size: 1.2rem;
+  max-width: 70%;
+  color: #333333;
+  font-weight: 300;
+}
+
+/* ----------------------Succes historier------------------------ */
+
+.index-succes-stories-backimg {
+  background-image: url(../Images/cdc-SAwxJ8PHY3Q-unsplash.jpg);
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10rem 0 -15rem 0;
+  filter: blur(2px) brightness(55%);
+  background-position: 0 -180px;
+}
+
+.index-succes-stories-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-image: url();
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  text-align: center;
+  color: white;
+}
+
+.index-succes-stories-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.index-succes-stories-content h3 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.index-succes-stories-text {
+  width: 60%;
+}
+
+.index-succes-stories-content img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+/* ----------------------Index Find bedste ven------------------- */
+
+.index-find-ven-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.index-find-ven h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.index-find-ven-button button {
+  margin: 2rem 0 5rem 0;
+  background-color: #5c5351;
+  color: #fff8f1;
+  padding: 0.5% 3%;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+
+.index-find-ven-card {
+  background-color: #5c5351;
+  padding: 0 0.5rem;
+  color: #fff8f1;
+  border-radius: 15px;
+}
+
+.index-find-ven-card h3 {
+  font-size: 2rem;
+  margin: 0.8rem 0 -0.5rem 0;
+}
+
+.index-find-ven-card img {
+  max-width: 100%;
+  margin-top: 0.5rem;
+  border-radius: 15px;
+}
+.index-find-ven-card p {
+  /* max-width: 30%; */
+}
+
+.index-find-ven-card button {
+  background-color: #fff8f1;
+  color: #333333;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 2.5% 10%;
+  position: relative;
+  transform: translateX(75%);
+  border-radius: 15px;
+  margin-bottom: 1rem;
+}
+
+.index-find-ven-card-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 90%;
+  column-gap: 1rem;
+  row-gap: -0.5rem;
+}
+
+.index-find-ven-card-info {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .index-find-ven-card-info {
+    max-width: 150px;
+  } */
+
+/* ----------------------Index Eksperternes hjørne--------------- */
+
+.index-ekperternes-hjørne {
+  text-align: center;
+}
+
+.index-top-title h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.index-top-title p {
+  font-size: 1.2rem;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4rem;
+}
+
+.index-ekperternes-hjørne-box {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-between;
+  text-align: left;
+  gap: 1rem;
+}
+
+.index-ekperternes-hjørne-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: left;
+  max-width: 70%;
+}
+.index-eksperternes-hjørne-left-brown {
+  background-color: #5c5351;
+  color: #fff8f1;
+  border-radius: 15px;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  filter: drop-shadow(0 0.4rem 0.35rem grey);
+}
+
+.index-eksperternes-hjørne-left-white {
+  background-color: #fff8f1;
+  color: #5c5351;
+  border-radius: 15px;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  filter: drop-shadow(0 0.4rem 0.35rem grey);
+}
+
+.index-eksperternes-hjørne-right-brown {
+  background-color: #5c5351;
+  color: #fff8f1;
+  border-radius: 15px;
+  padding: 0.5rem;
+  filter: drop-shadow(0 0.4rem 0.35rem grey);
+}
+
+.white-background {
+  background-color: #fff8f1;
+  color: #5c5351;
+  border-radius: 15px;
+  padding: 1rem;
+}
+
+.index-eksperternes-hjørne-left-content img {
+  max-width: 25%;
+}
+
+.index-eksperternes-hjørne-right-content img {
+  max-width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.index-eksperternes-hjørne-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.index-eksperternes-hjørne-heading {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.index-eksperternes-hjørne-left-content h3 {
+  margin: 0 0 0 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.index-eksperternes-hjørne-left-content p {
+  max-width: 80%;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  margin: 0.2rem 0 0.2rem 1rem;
+}
+
+.index-eksperternes-hjørne-left-content span {
+  margin: 0.2rem 0 0.2rem 1rem;
+  font-weight: 800;
+}
+
+.index-eksperternes-hjørne-right {
+  width: 40%;
+}
+
+.index-eksperternes-hjørne-right-content h3 {
+  margin: 10px -20px -10px 18px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.index-eksperternes-hjørne-right-content p {
+  margin: 16px -20px 10px 18px;
+  /* font-size: 1.2rem; */
+  max-width: 90%;
+}
+
+.index-eksperternes-hjørne-right .index-eksperternes-hjørne-content-info {
+  margin: 13px 0px -14px 18px;
+  font-weight: 600;
+}
+
+.index-eksperternes-hjørne-content-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.info-divider {
+  height: 10px;
+  width: 2px;
+  background-color: grey;
+}
+
+.index-eksperternes-hjørne-button {
+  margin: 3rem 0rem 6rem 0;
+  padding: 1% 2%;
+  background-color: #5c5351;
+  color: #fff8f1;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-radius: 15px;
+}
