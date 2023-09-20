@@ -3,20 +3,19 @@
     // generalle
     padding: 60px;
     text-align: center;
-    background-image: url(/assets/img/Promotion-Page_Banner-Desktop_Evergreen.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/Promotion-Page_Banner-Desktop_Evergreen.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     color: white;
     font-size: 30px;
-    height: 957px;
+    height: 900px;
     // grid
     display: grid;
     grid-template-columns: auto auto auto;
     grid-row-start: 1;
     grid-row-end: 1;
-
     // specifikke styles
     h1 {
         color: white;
@@ -31,7 +30,7 @@
     p {
         text-align: center;
         position: absolute;
-        top: 45%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
@@ -193,7 +192,7 @@
     grid-row-start: 5;
     grid-row-end: 5;
     // general
-    background-image: url(/assets/img/Promotion-Page_Banner-Desktop_Evergreen.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/Promotion-Page_Banner-Desktop_Evergreen.png");
     color: white;
     height: 500px;
 
@@ -306,7 +305,7 @@
     }
 
     .donate {
-        background-image: url(/assets/img/donation-help-charity-750x350.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(/assets/img/donation-help-charity-750x350.jpg);
         border-radius: 25px 25px 0px 0px;
         position: fixed;
         left: 25%;

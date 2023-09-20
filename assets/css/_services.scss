@@ -3,7 +3,7 @@
     // generalle
     padding: 60px;
     text-align: center;
-    background-image: url(/assets/img/Promotion-Page_Banner-Desktop_Evergreen.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/Promotion-Page_Banner-Desktop_Evergreen.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -442,7 +442,7 @@
     }
 
     .donate {
-        background-image: url(/assets/img/donation-help-charity-750x350.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(/assets/img/donation-help-charity-750x350.jpg);
         border-radius: 25px 25px 0px 0px;
         position: fixed;
         left: 25%;
