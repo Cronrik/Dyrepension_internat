@@ -1067,6 +1067,139 @@
   font-weight: bolder;
 }
 
+/* Hero anner style */
+.hero-banner-eksperterne {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("Assets/images/walking-with-dog-in-the-forest.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+}
+
+/* H1 style hero */
+.hero-content-eksperterne h1 {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Paragraf style hero  */
+.hero-content-eksperterne p {
+  font-size: 20px;
+  margin: 10px;
+}
+
+/* Hero Content styling */
+.hero-content-eksperterne {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+/* style grid, content osv...*/
+.indlæg {
+  padding: 40px 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.grid-item {
+  background-color: #333333;
+  padding: 10px;
+  border-radius: 15px;
+  color: #fff8f1;
+}
+
+.grid-item img {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+.grid-item h3 {
+  margin-top: 10px;
+}
+
+.grid-item:nth-child(1) {
+  grid-column: 2/span 2;
+}
+
+.grid-item:nth-child(2) {
+  grid-column: 5/span 2;
+}
+
+.grid-item:nth-child(3) {
+  grid-column: 8/span 2;
+}
+
+/* Hero anner style */
+.hero-banner-kontakt {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("Assets/images/istockphoto-1250060339-612x612.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+  background-position: bottom center;
+}
+
+/* H1 style hero */
+.hero-content-kontakt h1 {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Paragraf style hero  */
+.hero-content-kontakt p {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.hero-content-kontakt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+/* grid style*/
+.information {
+  padding: 40px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.grid-item {
+  padding: 10px;
+  color: #5c5351;
+}
+
+.grid-item:nth-child(1) {
+  grid-column: 2/span 2;
+}
+
+.grid-item:nth-child(2) {
+  grid-column: 4/span 2;
+}
+
+.grid-item:nth-child(3) {
+  grid-column: 6/span 2;
+}
+
 body {
   margin: 0%;
 }
