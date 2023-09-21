@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 .page_banner_about {
   padding: 60px;
   text-align: center;
@@ -683,6 +684,197 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   font-size: 1rem;
   font-weight: bolder;
+}
+
+.intro_subpage {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  margin-left: 15%;
+  margin-bottom: 1%;
+}
+.intro_subpage h1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  font-family: "Merriweather", serif;
+}
+.intro_subpage p {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  font-family: "Raleway", sans-serif;
+  width: 500px;
+}
+
+.pres_subpage {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  margin-left: 10%;
+}
+.pres_subpage img {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  width: 600px;
+  height: auto;
+  margin-left: 9%;
+  border-radius: 15px;
+}
+.pres_subpage article {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  width: 500px;
+}
+.pres_subpage article ul {
+  list-style-image: url("/assets/img/paw-solid.svg");
+}
+.pres_subpage article ul li {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+.pres_subpage article ul li p {
+  display: inline;
+}
+.pres_subpage article button {
+  background-color: #5C5351;
+  color: white;
+  padding: 3%;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.info_subpage {
+  display: grid;
+  grid-template-columns: auto;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  margin-bottom: 1%;
+  margin-left: 13%;
+}
+.info_subpage h2 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  font-family: "Merriweather", serif;
+  font-size: 3rem;
+}
+.info_subpage p {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  font-family: "Raleway", sans-serif;
+  margin-right: 10%;
+}
+
+.img_subpage {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  margin-left: 13%;
+  width: 100%;
+}
+.img_subpage img {
+  width: 450px;
+  height: 500px;
+  border-radius: 15px;
+}
+.img_subpage .petshowcase1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+.img_subpage .petshowcase2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.raceinfo_subpage {
+  display: grid;
+  grid-template-columns: auto;
+  grid-row-start: 5;
+  grid-row-end: 5;
+  margin-left: 13%;
+  margin-right: 13%;
+}
+.raceinfo_subpage article h2 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  font-family: "Merriweather", serif;
+}
+.raceinfo_subpage article p {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  font-family: "Raleway", sans-serif;
+}
+
+.heath_subpage {
+  display: grid;
+  grid-template-columns: auto;
+  grid-row-start: 5;
+  grid-row-end: 5;
+  margin-left: 13%;
+  margin-right: 13%;
+}
+.heath_subpage article h2 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  font-family: "Merriweather", serif;
+}
+.heath_subpage article p {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  font-family: "Raleway", sans-serif;
+}
+
+.devider_subpage {
+  display: grid;
+  grid-template-columns: auto;
+  grid-row-start: 6;
+  grid-row-end: 6;
+  height: 500px;
+  background-image: url(/assets/img/Bella_cropped.png);
+}
+.devider_subpage h2 {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 70px;
+  color: white;
+  font-family: "Merriweather", serif;
+}
+
+.FAQ_subpage {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-row-start: 7;
+  grid-row-end: 7;
+  margin-top: 1%;
+  margin-left: 13%;
+  margin-right: 13%;
+}
+.FAQ_subpage img {
+  width: 100%;
+  height: 400px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.FAQ_subpage article {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.FAQ_subpage article h3 {
+  font-family: "Merriweather", serif;
+}
+.FAQ_subpage article p {
+  font-family: "Raleway", sans-serif;
+}
+.FAQ_subpage article ul li {
+  list-style-type: none;
 }
 
 body {
