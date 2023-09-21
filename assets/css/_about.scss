@@ -3,7 +3,7 @@
     // generalle
     padding: 60px;
     text-align: center;
-    background-image: url(/assets/img/Promotion-Page_Banner-Desktop_Evergreen.png);
+    background-image: url(../images/om-os-hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,7 +78,7 @@
     grid-row-start: 3;
     grid-row-end: 3;
     // generalle 
-    background-image: url(/assets/img/pexels-phil-kallahar-983200.png);
+    background-image: url(../images/pexels-phil-kallahar-983200.png);
     color: white;
     margin-top: 1%;
     margin-bottom: 1%;
@@ -193,7 +193,7 @@
     grid-row-start: 5;
     grid-row-end: 5;
     // general
-    background-image: url(/assets/img/Promotion-Page_Banner-Desktop_Evergreen.png);
+    background-image: url(../images/anmeldelser.jpg);
     color: white;
     height: 500px;
 
@@ -225,108 +225,5 @@
         grid-column-end: 3;
         text-align: center;
         font-family: 'Merriweather', serif;
-    }
-}
-
-.form_container_about {
-    // grid
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-row-start: 6;
-    grid-row-end: 6;
-    // generalle
-    color: white;
-    background-image: url(/assets/img/pexels-phil-kallahar-983200.png);
-    height: 800px;
-
-    // spcifikke styles
-    .info_col {
-        grid-column-start: 2;
-        grid-column-end: 3;
-        width: 600px;
-
-        h2 {
-            font-family: 'Merriweather', serif;
-            font-size: 3rem;
-        }
-
-        h3 {
-            font-family: 'Merriweather', serif;
-            font-size: 2rem;
-        }
-
-        ul {
-            font-family: 'Raleway', sans-serif;
-            list-style: none;
-        }
-
-        p {
-            font-family: 'Raleway', sans-serif;
-            font-size: 1rem;
-        }
-    }
-
-    .contact_col {
-        margin-top: 10%;
-        margin-bottom: 10%;
-        grid-column-start: 4;
-        grid-column-end: 3;
-        background-color: white;
-        width: 300px;
-        height: 400px;
-        padding: 10% 5% 10% 5%;
-        border-radius: 3%;
-        input{
-            width: 95%;
-            height: 10%;
-            box-shadow:1px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            border-radius: 10px;
-            font-family: 'Raleway', sans-serif;
-            text-align: center;
-        }
-        textarea{
-            width: 91%;
-            height: 50%;
-            padding: 5% 0% 0% 5%;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            border-radius: 10px;
-            font-family: 'Raleway', sans-serif;
-        }
-        button{
-            width: 100%;
-            height: 15%;
-            background-color: #5C5351;
-            color: white;
-            border-radius: 10px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            font-size: 2rem;
-            font-family: 'Raleway', sans-serif;
-        }
-    }
-
-    .donate {
-        background-image: url(/assets/img/donation-help-charity-750x350.jpg);
-        border-radius: 25px 25px 0px 0px;
-        position: fixed;
-        left: 25%;
-        bottom: -2%;
-        text-align: center;
-        height: 7%;
-        width: 50%;
-        font-family: 'Merriweather', serif;
-        li{
-            margin-left: 1%;
-            display: inline-block   ;
-        }
-        button{
-            padding: 20%;
-            background-color: #5C5351;
-            color: white;
-            border-radius: 10px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            font-size: 1rem;
-            font-weight: bolder;
-        }
     }
 }

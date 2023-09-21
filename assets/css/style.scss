@@ -10,6 +10,10 @@ body {
   margin: 0%;
 }
 
+html {
+  margin-top: 0 !important;
+}
+
 .main-margin {
   margin: 0 10rem;
 }
@@ -154,7 +158,7 @@ input[type="submit"]:hover {
 }
 
 .doner-banner {
-  background-image: url(../Images//caucasian-woman-with-closed-eyes-2560159.jpg);
+  background-image: url(../Images/doner.jpg);
   height: 12rem;
   background-repeat: no-repeat;
   background-size: cover;
