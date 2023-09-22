@@ -72,21 +72,48 @@
         </section>
     </section>
     <!-- vores team -->
-    <section class="team_container">
         <h2>Mød vores Team</h2>
-        <article class="art1">
-            <img src="" alt="team_member">
-            <h3>Arbejders navn</h3>
-            <h3>position</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, vel dolor ab neque consequuntur
-                possimus repellat exercitationem? Quam amet mollitia, eaque incidunt aperiam distinctio commodi, hic
-                pariatur velit aliquid sit?
-            </p>
-        </article>
-    </section>
+        <div class="index-find-ven-grid main-margin">
+    
+    <?php 
+  
+ $frontpageTeams = new WP_Query(array(
+  'post_type' => 'team', 
+));
+
+    while($frontpageTeams->have_posts()) {
+      $frontpageTeams-> the_post();?>
+      <div class="index-find-ven-grid-card">
+    <?php 
+    $billedeTeam = get_field('medarbejder_billede');
+    $stilling =  get_field('stilling');
+        if (get_field('medarbejder_billede')): ?>
+        <div class="index-find-ven-img center-content"><img src="<?php the_field('medarbejder_billede'); ?>"/></div>
+        <?php endif; ?>
+
+    <h2><?php the_title(); ?></h2>  
+        <span class="center-content"> <?php 
+            if(get_field('stilling')) {
+                the_field('stilling');
+            } 
+        ?></span>
+
+
+    <p><?php the_content(); ?></p>
+
+    <div class="index-find-ven-card-info-grid">
+    <div class="index-find-ven-card-info"> 
+    
+</div>
+</div>
+    <a href="<?php echo get_permalink(); ?>"> Læs mere -></a>
+</div>
+<?php } ?>
+</div>
+
     <!-- anmæelser -->
     <section class="reviews_container">
-        <h2>Anmelelser</h2>
+        <h2>Anmeldelser</h2>
         <p>
             "Jeg kan ikke takke Sejr & Davidsens Dyrepension og -internat nok for den fantastiske pleje, de gav min
             elskede hund, Bella. Fra det øjeblik vi trådte ind på stedet, kunne vi mærke den kærlighed og

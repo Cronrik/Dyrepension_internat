@@ -182,396 +182,136 @@
       </section>
     </section>
 
+    <!-- Custom Query til at vise animals på front page, med custom post type animal -->
+    
     <section class="index-find-ven">
       <h2>Find din nye bedste ven</h2>
       <div class="index-find-ven-flex main-margin">
-        <div class="index-find-ven-card">
-          <div class="index-find-ven-img center-content">
-            <img
-              src="assets/images/mark-rimmel-s63SosNApwo-unsplash.jpg"
-              alt="Portræt af hund i find bedste ven sektion"
-            />
-          </div>
-          <h3>Bella</h3>
-          <p>
-            En livlig Beagle, fuld af energi og charme. Den perfekte følgesvend
-            til aktive familier og en trofast ven til børn.
-          </p>
-          <div class="index-find-ven-card-info-grid">
-            <div class="index-find-ven-card-info">
-              <p>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="1em"
-                  viewBox="0 0 512 512"
-                >
-                  <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                  <style>
-                    svg {
-                      fill: #ffffff;
-                    }
-                  </style>
-                  <path
-                    d="M226.5 92.9c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5zM100.4 198.6c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM69.2 401.2C121.6 259.9 214.7 224 256 224s134.4 35.9 186.8 177.2c3.6 9.7 5.2 20.1 5.2 30.5v1.6c0 25.8-20.9 46.7-46.7 46.7c-11.5 0-22.9-1.4-34-4.2l-88-22c-15.3-3.8-31.3-3.8-46.6 0l-88 22c-11.1 2.8-22.5 4.2-34 4.2C84.9 480 64 459.1 64 433.3v-1.6c0-10.4 1.6-20.8 5.2-30.5zM421.8 282.7c-24.5-14-29.1-51.7-10.2-84.1s54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3zM310.1 189.7c-32.3-10.6-46.9-53.9-32.6-96.8s52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5z"
-                  />
-                </svg>
-                <strong>Race: </strong>Beagle
-              </p>
-            </div>
-            <div class="index-find-ven-card-info">
-              <p>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="1em"
-                  viewBox="0 0 512 512"
-                >
-                  <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                  <style>
-                    svg {
-                      fill: #ffffff;
-                    }
-                  </style>
-                  <path
-                    d="M226.5 92.9c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5zM100.4 198.6c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM69.2 401.2C121.6 259.9 214.7 224 256 224s134.4 35.9 186.8 177.2c3.6 9.7 5.2 20.1 5.2 30.5v1.6c0 25.8-20.9 46.7-46.7 46.7c-11.5 0-22.9-1.4-34-4.2l-88-22c-15.3-3.8-31.3-3.8-46.6 0l-88 22c-11.1 2.8-22.5 4.2-34 4.2C84.9 480 64 459.1 64 433.3v-1.6c0-10.4 1.6-20.8 5.2-30.5zM421.8 282.7c-24.5-14-29.1-51.7-10.2-84.1s54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3zM310.1 189.7c-32.3-10.6-46.9-53.9-32.6-96.8s52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5z"
-                  />
-                </svg>
-                <strong>Helbred: </strong>Sund og fuld af energi
-              </p>
-            </div>
-            <div class="index-find-ven-card-info">
-              <p>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="1em"
-                  viewBox="0 0 512 512"
-                >
-                  <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                  <style>
-                    svg {
-                      fill: #ffffff;
-                    }
-                  </style>
-                  <path
-                    d="M226.5 92.9c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5zM100.4 198.6c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM69.2 401.2C121.6 259.9 214.7 224 256 224s134.4 35.9 186.8 177.2c3.6 9.7 5.2 20.1 5.2 30.5v1.6c0 25.8-20.9 46.7-46.7 46.7c-11.5 0-22.9-1.4-34-4.2l-88-22c-15.3-3.8-31.3-3.8-46.6 0l-88 22c-11.1 2.8-22.5 4.2-34 4.2C84.9 480 64 459.1 64 433.3v-1.6c0-10.4 1.6-20.8 5.2-30.5zM421.8 282.7c-24.5-14-29.1-51.7-10.2-84.1s54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3zM310.1 189.7c-32.3-10.6-46.9-53.9-32.6-96.8s52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5z"
-                  />
-                </svg>
-                <strong>Alder: </strong>2 år
-              </p>
-            </div>
-            <div class="index-find-ven-card-info">
-              <p>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="1em"
-                  viewBox="0 0 512 512"
-                >
-                  <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                  <style>
-                    svg {
-                      fill: #ffffff;
-                    }
-                  </style>
-                  <path
-                    d="M226.5 92.9c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5zM100.4 198.6c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM69.2 401.2C121.6 259.9 214.7 224 256 224s134.4 35.9 186.8 177.2c3.6 9.7 5.2 20.1 5.2 30.5v1.6c0 25.8-20.9 46.7-46.7 46.7c-11.5 0-22.9-1.4-34-4.2l-88-22c-15.3-3.8-31.3-3.8-46.6 0l-88 22c-11.1 2.8-22.5 4.2-34 4.2C84.9 480 64 459.1 64 433.3v-1.6c0-10.4 1.6-20.8 5.2-30.5zM421.8 282.7c-24.5-14-29.1-51.7-10.2-84.1s54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3zM310.1 189.7c-32.3-10.6-46.9-53.9-32.6-96.8s52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5z"
-                  />
-                </svg>
-                <strong>Fungere godt med: </strong>Børn og aktive familier
-              </p>
-            </div>
-          </div>
-          <button>Se Bella</button>
-        </div>
-        <div class="index-find-ven-card">
-          <div class="index-find-ven-img center-content">
-            <img
-              src="assets/images/mark-rimmel-s63SosNApwo-unsplash.jpg"
-              alt="Portræt af hund i find bedste ven sektion"
-            />
-          </div>
-          <h3>Bella</h3>
-          <p>
-            En livlig Beagle, fuld af energi og charme. Den perfekte følgesvend
-            til aktive familier og en trofast ven til børn.
-          </p>
-          <div class="index-find-ven-card-info-grid">
-            <div class="index-find-ven-card-info">
-              <p>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="1em"
-                  viewBox="0 0 512 512"
-                >
-                  <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                  <style>
-                    svg {
-                      fill: #ffffff;
-                    }
-                  </style>
-                  <path
-                    d="M226.5 92.9c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5zM100.4 198.6c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM69.2 401.2C121.6 259.9 214.7 224 256 224s134.4 35.9 186.8 177.2c3.6 9.7 5.2 20.1 5.2 30.5v1.6c0 25.8-20.9 46.7-46.7 46.7c-11.5 0-22.9-1.4-34-4.2l-88-22c-15.3-3.8-31.3-3.8-46.6 0l-88 22c-11.1 2.8-22.5 4.2-34 4.2C84.9 480 64 459.1 64 433.3v-1.6c0-10.4 1.6-20.8 5.2-30.5zM421.8 282.7c-24.5-14-29.1-51.7-10.2-84.1s54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3zM310.1 189.7c-32.3-10.6-46.9-53.9-32.6-96.8s52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5z"
-                  />
-                </svg>
-                <strong>Race: </strong>Beagle
-              </p>
-            </div>
-            <div class="index-find-ven-card-info">
-              <p>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="1em"
-                  viewBox="0 0 512 512"
-                >
-                  <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                  <style>
-                    svg {
-                      fill: #ffffff;
-                    }
-                  </style>
-                  <path
-                    d="M226.5 92.9c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5zM100.4 198.6c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM69.2 401.2C121.6 259.9 214.7 224 256 224s134.4 35.9 186.8 177.2c3.6 9.7 5.2 20.1 5.2 30.5v1.6c0 25.8-20.9 46.7-46.7 46.7c-11.5 0-22.9-1.4-34-4.2l-88-22c-15.3-3.8-31.3-3.8-46.6 0l-88 22c-11.1 2.8-22.5 4.2-34 4.2C84.9 480 64 459.1 64 433.3v-1.6c0-10.4 1.6-20.8 5.2-30.5zM421.8 282.7c-24.5-14-29.1-51.7-10.2-84.1s54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3zM310.1 189.7c-32.3-10.6-46.9-53.9-32.6-96.8s52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5z"
-                  />
-                </svg>
-                <strong>Helbred: </strong>Sund og fuld af energi
-              </p>
-            </div>
-            <div class="index-find-ven-card-info">
-              <p>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="1em"
-                  viewBox="0 0 512 512"
-                >
-                  <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                  <style>
-                    svg {
-                      fill: #ffffff;
-                    }
-                  </style>
-                  <path
-                    d="M226.5 92.9c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5zM100.4 198.6c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM69.2 401.2C121.6 259.9 214.7 224 256 224s134.4 35.9 186.8 177.2c3.6 9.7 5.2 20.1 5.2 30.5v1.6c0 25.8-20.9 46.7-46.7 46.7c-11.5 0-22.9-1.4-34-4.2l-88-22c-15.3-3.8-31.3-3.8-46.6 0l-88 22c-11.1 2.8-22.5 4.2-34 4.2C84.9 480 64 459.1 64 433.3v-1.6c0-10.4 1.6-20.8 5.2-30.5zM421.8 282.7c-24.5-14-29.1-51.7-10.2-84.1s54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3zM310.1 189.7c-32.3-10.6-46.9-53.9-32.6-96.8s52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5z"
-                  />
-                </svg>
-                <strong>Alder: </strong>2 år
-              </p>
-            </div>
-            <div class="index-find-ven-card-info">
-              <p>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="1em"
-                  viewBox="0 0 512 512"
-                >
-                  <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                  <style>
-                    svg {
-                      fill: #ffffff;
-                    }
-                  </style>
-                  <path
-                    d="M226.5 92.9c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5zM100.4 198.6c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM69.2 401.2C121.6 259.9 214.7 224 256 224s134.4 35.9 186.8 177.2c3.6 9.7 5.2 20.1 5.2 30.5v1.6c0 25.8-20.9 46.7-46.7 46.7c-11.5 0-22.9-1.4-34-4.2l-88-22c-15.3-3.8-31.3-3.8-46.6 0l-88 22c-11.1 2.8-22.5 4.2-34 4.2C84.9 480 64 459.1 64 433.3v-1.6c0-10.4 1.6-20.8 5.2-30.5zM421.8 282.7c-24.5-14-29.1-51.7-10.2-84.1s54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3zM310.1 189.7c-32.3-10.6-46.9-53.9-32.6-96.8s52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5z"
-                  />
-                </svg>
-                <strong>Fungere godt med: </strong>Børn og aktive familier
-              </p>
-            </div>
-          </div>
-          <button>Se Bella</button>
-        </div>
-        <div class="index-find-ven-card">
-          <div class="index-find-ven-img center-content">
-            <img
-              src="assets/images/mark-rimmel-s63SosNApwo-unsplash.jpg"
-              alt="Portræt af hund i find bedste ven sektion"
-            />
-          </div>
-          <h3>Bella</h3>
-          <p>
-            En livlig Beagle, fuld af energi og charme. Den perfekte følgesvend
-            til aktive familier og en trofast ven til børn.
-          </p>
-          <div class="index-find-ven-card-info-grid">
-            <div class="index-find-ven-card-info">
-              <p>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="1em"
-                  viewBox="0 0 512 512"
-                >
-                  <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                  <style>
-                    svg {
-                      fill: #ffffff;
-                    }
-                  </style>
-                  <path
-                    d="M226.5 92.9c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5zM100.4 198.6c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM69.2 401.2C121.6 259.9 214.7 224 256 224s134.4 35.9 186.8 177.2c3.6 9.7 5.2 20.1 5.2 30.5v1.6c0 25.8-20.9 46.7-46.7 46.7c-11.5 0-22.9-1.4-34-4.2l-88-22c-15.3-3.8-31.3-3.8-46.6 0l-88 22c-11.1 2.8-22.5 4.2-34 4.2C84.9 480 64 459.1 64 433.3v-1.6c0-10.4 1.6-20.8 5.2-30.5zM421.8 282.7c-24.5-14-29.1-51.7-10.2-84.1s54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3zM310.1 189.7c-32.3-10.6-46.9-53.9-32.6-96.8s52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5z"
-                  />
-                </svg>
-                <strong>Race: </strong>Beagle
-              </p>
-            </div>
-            <div class="index-find-ven-card-info">
-              <p>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="1em"
-                  viewBox="0 0 512 512"
-                >
-                  <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                  <style>
-                    svg {
-                      fill: #ffffff;
-                    }
-                  </style>
-                  <path
-                    d="M226.5 92.9c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5zM100.4 198.6c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM69.2 401.2C121.6 259.9 214.7 224 256 224s134.4 35.9 186.8 177.2c3.6 9.7 5.2 20.1 5.2 30.5v1.6c0 25.8-20.9 46.7-46.7 46.7c-11.5 0-22.9-1.4-34-4.2l-88-22c-15.3-3.8-31.3-3.8-46.6 0l-88 22c-11.1 2.8-22.5 4.2-34 4.2C84.9 480 64 459.1 64 433.3v-1.6c0-10.4 1.6-20.8 5.2-30.5zM421.8 282.7c-24.5-14-29.1-51.7-10.2-84.1s54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3zM310.1 189.7c-32.3-10.6-46.9-53.9-32.6-96.8s52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5z"
-                  />
-                </svg>
-                <strong>Helbred: </strong>Sund og fuld af energi
-              </p>
-            </div>
-            <div class="index-find-ven-card-info">
-              <p>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="1em"
-                  viewBox="0 0 512 512"
-                >
-                  <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                  <style>
-                    svg {
-                      fill: #ffffff;
-                    }
-                  </style>
-                  <path
-                    d="M226.5 92.9c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5zM100.4 198.6c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM69.2 401.2C121.6 259.9 214.7 224 256 224s134.4 35.9 186.8 177.2c3.6 9.7 5.2 20.1 5.2 30.5v1.6c0 25.8-20.9 46.7-46.7 46.7c-11.5 0-22.9-1.4-34-4.2l-88-22c-15.3-3.8-31.3-3.8-46.6 0l-88 22c-11.1 2.8-22.5 4.2-34 4.2C84.9 480 64 459.1 64 433.3v-1.6c0-10.4 1.6-20.8 5.2-30.5zM421.8 282.7c-24.5-14-29.1-51.7-10.2-84.1s54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3zM310.1 189.7c-32.3-10.6-46.9-53.9-32.6-96.8s52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5z"
-                  />
-                </svg>
-                <strong>Alder: </strong>2 år
-              </p>
-            </div>
-            <div class="index-find-ven-card-info">
-              <p>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="1em"
-                  viewBox="0 0 512 512"
-                >
-                  <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                  <style>
-                    svg {
-                      fill: #ffffff;
-                    }
-                  </style>
-                  <path
-                    d="M226.5 92.9c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5zM100.4 198.6c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM69.2 401.2C121.6 259.9 214.7 224 256 224s134.4 35.9 186.8 177.2c3.6 9.7 5.2 20.1 5.2 30.5v1.6c0 25.8-20.9 46.7-46.7 46.7c-11.5 0-22.9-1.4-34-4.2l-88-22c-15.3-3.8-31.3-3.8-46.6 0l-88 22c-11.1 2.8-22.5 4.2-34 4.2C84.9 480 64 459.1 64 433.3v-1.6c0-10.4 1.6-20.8 5.2-30.5zM421.8 282.7c-24.5-14-29.1-51.7-10.2-84.1s54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3zM310.1 189.7c-32.3-10.6-46.9-53.9-32.6-96.8s52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5z"
-                  />
-                </svg>
-                <strong>Fungere godt med: </strong>Børn og aktive familier
-              </p>
-            </div>
-          </div>
-          <button>Se Bella</button>
-        </div>
-      </div>
-      <div class="index-find-ven-button center-content">
-        <button>Se flere</button>
-      </div>
-    </section>
+    <?php  
+    $frontpageAnimals = new WP_Query(array(
+      'posts_per_page' => 3,
+      'post_type' => 'animal'
+    ));
 
-    <section class="index-ekperternes-hjørne main-margin">
-      <section class="index-top-title">
-        <h2>Eksperternes hjørne</h2>
-        <p>
-          Få et forsmag på vores dyreeksperters rådgivning og indsigt. I
-          Eksperternes Hjørne deler vores dyrelæge og dyreadfærds specialist
-          deres passion og viden om dyreadfærd, sundhed og pleje.
-        </p>
-      </section>
-      <section class="index-ekperternes-hjørne-box">
-        <section class="index-ekperternes-hjørne-left">
-          <div class="index-eksperternes-hjørne-left-content">
-            <div class="index-eksperternes-hjørne-left-brown">
-              <img
-                src="assets/images/Dog-Training-Basics-2.jpg"
-                alt="dog training"
-              />
-              <div class="index-eksperternes-hjørne-left-text">
-                <div class="index-eksperternes-hjørne-top">
-                  <div class="index-eksperternes-hjørne-heading">
-                    <h3>Hundetræning 101:</h3>
-                    <h3>Sådan skaber du et lykkeligt hjem</h3>
-                  </div>
-                </div>
-                <div class="index-eksperternes-hjørne-content-info">
-                  <span>6 marts, 2023</span>
-                  <div class="info-divider"></div>
-                  <span>Kategori</span>
-                </div>
-                <p class="index-eksperternes-hjørne-info-text">
-                  Jesper Davidsen dykker dybere ned i kunsten at træne din hund
-                  og skabe et harmonisk hjem. Få ekspertinsigt i de bedste
-                  metoder til træning, adfærdsforståelse og det særlige bånd
-                  mellem menneske og hund.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="index-eksperternes-hjørne-left-content">
-            <div class="index-eksperternes-hjørne-left-white">
-              <img
-                src="assets/images/Dog-Training-Basics-2.jpg"
-                alt="dog training"
-              />
-              <div class="index-eksperternes-hjørne-left-text">
-                <div class="index-eksperternes-hjørne-top">
-                  <div class="index-eksperternes-hjørne-heading">
-                    <h3>Hundetræning 101:</h3>
-                    <h3>Sådan skaber du et lykkeligt hjem</h3>
-                  </div>
-                </div>
-                <div class="index-eksperternes-hjørne-content-info">
-                  <span>6 marts, 2023</span>
-                  <div class="info-divider"></div>
-                  <span>Kategori</span>
-                </div>
-                <p class="index-eksperternes-hjørne-info-text">
-                  Jesper Davidsen dykker dybere ned i kunsten at træne din hund
-                  og skabe et harmonisk hjem. Få ekspertinsigt i de bedste
-                  metoder til træning, adfærdsforståelse og det særlige bånd
-                  mellem menneske og hund.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="index-eksperternes-hjørne-right">
-          <div class="index-eksperternes-hjørne-right-content">
-            <div class="index-eksperternes-hjørne-right-brown">
-              <div class="index-eksperternes-hjørne-heading">
-                <img
-                  src="assets/images/Dog-Training-Basics-2.jpg"
-                  alt="dog training"
-                />
-                <h3>Hundetræning 101: Sådan skaber du et lykkeligt hjem</h3>
-              </div>
-              <div class="index-eksperternes-hjørne-content-info">
-                <span>6 marts, 2023</span>
-                <div class="info-divider"></div>
-                <span>Kategori</span>
-              </div>
-              <p>
-                Jesper Davidsen dykker dybere ned i kunsten at træne din hund og
-                skabe et harmonisk hjem. Få ekspertinsigt i de bedste metoder
-                til træning, adfærdsforståelse og det særlige bånd mellem
-                menneske og hund.
-              </p>
-            </div>
-          </div>
-        </section>
-      </section>
-      <button class="index-eksperternes-hjørne-button">Besøg hjørnet</button>
-    </section>
+    while($frontpageAnimals->have_posts()) {
+      $frontpageAnimals-> the_post();?>
+      <div class="index-find-ven-card">
+    <?php 
+    $hvilketDyr = get_field('dyr');
+    $hundeRace = get_field('race_hund');
+    $katteRace =  get_field('race_kat');
+    $dyreKon = get_field('kon');
+    $dyreAlder = get_field('alder');
+    $fungereMed = get_field('fungere_godt_med_');
+    $dyreBillede = get_field('billede_af_dyret_');
+        if (get_field('billede_af_dyret_')): ?>
+        <div class="index-find-ven-img center-content"><img src="<?php the_field('billede_af_dyret_'); ?>"/></div>
+        <?php endif; ?>
+    <h3><?php the_title(); ?></h3>  
+    <p><?php the_content(); ?></p>
+
+    <div class="index-find-ven-card-info-grid">
+    <div class="index-find-ven-card-info"> 
+    <p>
+      <strong>Race: </strong> <?php if (get_field('race_hund')) {
+     the_field('race_hund');
+    }    else if (get_field('race_kat')) {
+          the_field('race_kat');
+      } ?> 
+    </p> 
+    
+      <p>
+    <strong>Køn: </strong> <?php if (get_field('kon')) {
+        the_field('kon');
+    } ?>  
+    </p>
+
+    <p>
+      <strong>Alder: </strong> <?php 
+        if (get_field('alder')) {
+        the_field('alder');
+        } ?>
+    </p>
+
+    <p>
+      <strong>Fungere godt med: </strong> <?php if (get_field('fungere_godt_med_')) {
+      the_field('fungere_godt_med_'); 
+    } ?>
+    </p>
+    
+</div>
+</div>
+    <a href="<?php echo get_permalink(); ?>"> <button> <?php the_title(); ?></button></a>
+</div>
+<?php } ?>
+</div>  
+</section>
+
+<section class="index-find-ven">
+      <h2>Eksperternes hjørne</h2>
+      <p>Få et forsmag på vores dyreeksperters rådgivning og indsigt. I Eksperternes Hjørne deler vores dyrelæge og dyreadfærds specialist deres passion og viden om dyreadfærd, sundhed og pleje.</p>
+
+      <div class="index-find-ven-flex main-margin">
+    <?php  
+
+$frontpageArticle = new WP_Query(array(
+  'post_type' => 'article', 
+  'posts_per_page' => 3,
+  'meta_key' => 'dato',
+  'orderby' => 'meta_value_num',
+  'order' => 'DSC'
+));
+
+    while($frontpageArticle->have_posts()) {
+      $frontpageArticle-> the_post();?>
+      <div class="index-find-ven-card">
+    <?php 
+    $dato = get_field('dato');
+    $forfatter = get_field('forfatter');
+    $kategori =  get_field('kategori');
+    $billedeArtikel = get_field('billede_artikel');
+        if (get_field('billede_artikel')): ?>
+        <div class="index-find-ven-img center-content"><img src="<?php the_field('billede_artikel'); ?>"/></div>
+        <?php endif; ?>
+
+<div class="index-eksperternes-hjørne-content-info">
+    <span><?php if (get_field('forfatter')){ the_field('forfatter');} ?></span>
+    <div class="info-divider"></div>
+    <span><?php if (get_field('dato')) { the_field('dato'); }?></span>
+    <div class="info-divider"></div>
+    <span><?php if (get_field('kategori')){ the_field('kategori');} ?></span>
+    </div>
+
+    <h3><?php the_title(); ?></h3>  
+    <p><?php the_content(); ?></p>
+
+    <div class="index-find-ven-card-info-grid">
+    <div class="index-find-ven-card-info"> 
+    
+</div>
+</div>
+    <a href="<?php echo get_permalink(); ?>"> Læs mere -></a>
+</div>
+<?php } ?>
+</div>  
+</section>
+
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="1em"
+                  viewBox="0 0 512 512"
+                >
+                  <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <style>
+                    svg {
+                      fill: #ffffff;
+                    }
+                  </style>
+                  <path
+                    d="M226.5 92.9c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5zM100.4 198.6c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM69.2 401.2C121.6 259.9 214.7 224 256 224s134.4 35.9 186.8 177.2c3.6 9.7 5.2 20.1 5.2 30.5v1.6c0 25.8-20.9 46.7-46.7 46.7c-11.5 0-22.9-1.4-34-4.2l-88-22c-15.3-3.8-31.3-3.8-46.6 0l-88 22c-11.1 2.8-22.5 4.2-34 4.2C84.9 480 64 459.1 64 433.3v-1.6c0-10.4 1.6-20.8 5.2-30.5zM421.8 282.7c-24.5-14-29.1-51.7-10.2-84.1s54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3zM310.1 189.7c-32.3-10.6-46.9-53.9-32.6-96.8s52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5z"
+                  />
+                </svg>
 
  <?php get_footer(); ?>
   </body>

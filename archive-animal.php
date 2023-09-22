@@ -1,24 +1,5 @@
 <!DOCTYPE html>
 <html lang="da">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tjenester</title>
-    <!-- css -->
-    <link rel="stylesheet" href="Assets/css/style.css">
-    <!-- cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-</head>
-
 <body>
     <?php get_header(); ?>
     <!-- pagebanner -->
@@ -54,87 +35,69 @@
 
     </section>
     <!-- adoptions artickler -->
-    <section class="animal_container">
-        <h2>find din nye bedste ven</h2>
-        <!-- article1 -->
-        <article class="post_animal1">
-            <img src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/Labradoodle-scaled.jpg" alt="article img">
-            <h3>tiile</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque sapiente odit sed repellat enim eum eius
-                dolorem vitae illo quaerat. Quas veniam rem aut beatae voluptatibus unde, cum dolorem doloremque.
-            </p>
-            <!-- iconsection -->
-            <section class="icon_row">
-                <print>
-                    <i class="fa-solid fa-paw"></i><b>TXT</b> her
-                </print>
-                <print>
-                    <i class="fa-solid fa-paw"></i><b>TXT</b> her
-                </print>
-                <br>
-                <print>
-                    <i class="fa-solid fa-paw"></i><b>TXT</b> her
-                </print>
-                <print>
-                    <i class="fa-solid fa-paw"></i><b>XT</b> her
-                </print>
-            </section>
-            <br>
-            <button class="clear_float" type="submit">Se dyr</button>
-        </article>
-        
-        <article class="post_animal2">
-            <img src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/perser-scaled.jpg" alt="article img">
-            <h3>tiile</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque sapiente odit sed repellat enim eum eius
-                dolorem vitae illo quaerat. Quas veniam rem aut beatae voluptatibus unde, cum dolorem doloremque.
-            </p>
-            <!-- iconsection -->
-            <section class="icon_row">
-                <print>
-                    <i class="fa-solid fa-paw"></i><b>TXT</b> her
-                </print>
-                <print>
-                    <i class="fa-solid fa-paw"></i><b>TXT</b> her
-                </print>
-                <br>
-                <print>
-                    <i class="fa-solid fa-paw"></i><b>TXT</b> her
-                </print>
-                <print>
-                    <i class="fa-solid fa-paw"></i><b>XT</b> her
-                </print>
-            </section>
-            <br>
-            <button class="clear_float" type="submit">Se dyr</button>
-        </article>
+    <section class="index-find-ven">
+      <h2>Find din nye bedste ven</h2>
+      <div class="index-find-ven-flex main-margin">
+    <?php  
+    $frontpageAnimals = new WP_Query(array(
+      'posts_per_page' => 3,
+      'post_type' => 'animal'
+    ));
 
-        <article class="post_animal3">
-            <img src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/Bella-scaled.jpg" alt="article img">
-            <h3>tiile</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque sapiente odit sed repellat enim eum eius
-                dolorem vitae illo quaerat. Quas veniam rem aut beatae voluptatibus unde, cum dolorem doloremque.
-            </p>
-            <!-- iconsection -->
-            <section class="icon_row">
-                <print>
-                    <i class="fa-solid fa-paw"></i><b>TXT</b> her
-                </print>
-                <print>
-                    <i class="fa-solid fa-paw"></i><b>TXT</b> her
-                </print>
-                <br>
-                <print>
-                    <i class="fa-solid fa-paw"></i><b>TXT</b> her
-                </print>
-                <print>
-                    <i class="fa-solid fa-paw"></i><b>XT</b> her
-                </print>
-            </section>
-            <br>
-            <button class="clear_float" type="submit">Se dyr</button>
-        </article>
-    </section>
+    while($frontpageAnimals->have_posts()) {
+      $frontpageAnimals-> the_post();?>
+      <div class="index-find-ven-card">
+    <?php 
+    $hvilketDyr = get_field('dyr');
+    $hundeRace = get_field('race_hund');
+    $katteRace =  get_field('race_kat');
+    $dyreKon = get_field('kon');
+    $dyreAlder = get_field('alder');
+    $fungereMed = get_field('fungere_godt_med_');
+    $dyreBillede = get_field('billede_af_dyret_');
+        if (get_field('billede_af_dyret_')): ?>
+        <div class="index-find-ven-img center-content"><img src="<?php the_field('billede_af_dyret_'); ?>"/></div>
+        <?php endif; ?>
+    <h3><?php the_title(); ?></h3>  
+    <p><?php the_content(); ?></p>
+
+    <div class="index-find-ven-card-info-grid">
+    <div class="index-find-ven-card-info"> 
+    <p>
+      <strong>Race: </strong> <?php if (get_field('race_hund')) {
+     the_field('race_hund');
+    }    else if (get_field('race_kat')) {
+          the_field('race_kat');
+      } ?> 
+    </p> 
+    
+      <p>
+    <strong>Køn: </strong> <?php if (get_field('kon')) {
+        the_field('kon');
+    } ?>  
+    </p>
+
+    <p>
+      <strong>Alder: </strong> <?php 
+        if (get_field('alder')) {
+        the_field('alder');
+        } ?>
+    </p>
+
+    <p>
+      <strong>Fungere godt med: </strong> <?php if (get_field('fungere_godt_med_')) {
+      the_field('fungere_godt_med_'); 
+    } ?>
+    </p>
+    
+</div>
+</div>
+    <a href="<?php echo get_permalink(); ?>"> <button> <?php the_title(); ?></button></a>
+</div>
+<?php } ?>
+</div>  
+</section>
+
     <hr>
     <!-- pention section -->
     <section class="pention_container">
