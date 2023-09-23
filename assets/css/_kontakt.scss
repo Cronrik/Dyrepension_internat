@@ -40,24 +40,21 @@
   padding: 40px;
 }
 
-.grid-container {
+
+.grid-container-kontakt {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
 }
 
-.grid-item {
-  padding: 10px;
-  color: #5c5351;
-}
-
-.grid-item:nth-child(1) {
+.grid-item-kontakt:nth-child(1) {
   grid-column: 2 / span 2;
 }
 
-.grid-item:nth-child(2) {
+.grid-item-kontakt:nth-child(2) {
   grid-column: 4 / span 2;
 }
 
-.grid-item:nth-child(3) {
+.grid-item-kontakt:nth-child(3) {
   grid-column: 6 / span 2;
 }
+

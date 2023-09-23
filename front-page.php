@@ -13,15 +13,15 @@
   <body>
   <?php get_header(); ?>
     <section class="hero-banner-box">
-      <div class="hero-banner-img"></div>
+    <div class="hero-banner-img"></div>
       <div class="hero-banner-content">
         <h1>Velkommen til Sejr & Davidsen Dyrepension og -internat</h1>
-        <h4>
+        <p>
           Vi byder dig velkommen til vores omsorogsfulde univers, hvor kæledyrs
           trivsel og lykkke er vores højeste prioritet. Som Nordjyllands førende
           dyrepension og internat arbejder vi dedikeret for at give dine elskede
           firbenede familiemedlemmer den bedste pleje og opmækrsomhed.
-        </h4>
+        </p>
         <div class="arrow-down-banner center-content">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -48,13 +48,7 @@
           <h2>Hvem er vi?</h2>
           <p>
             Sejr & Davidsens Dyrepension og -internat er et sted hvor alle dyr
-            er velkommen. Vi har en bred vifte af specialer, og er eksperter på
-            alle dyr. Vi har været i branchen i 20+ år og sammen med vores
-            fantastiske team bliver der altid taget godt imod jeres dyr. Sejr &
-            Davidsens Dyrepension og -internat er et sted hvor alle dyr er
-            velkommen. Vi har en bred vifte af specialer, og er eksperter på
-            alle dyr. Vi har været i branchen i 20+ år og sammen med vores
-            fantastiske team bliver der altid taget godt imod jeres dyr.
+            er velkommen. Jeres dyr er altid vores første prioritet og sammen med vores brede vifte af eksperter indenfor alle dyr, vil vi altid yde den bedste service. Vi har været i branchen i 20+ år, så i kan roligt overlade jeres bedste venner til os!
           </p>
         </div>
         <div class="index-introduction-image">
@@ -72,12 +66,12 @@
           <div class="index-tjenester-logo-img">
             <img
               class="index-tjenester-logo-svg"
-              src="assets/images/hænder.svg"
+              src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/haender.svg"
               alt="hænder logo for adoption"
             />
           </div>
           <div class="index-tjenester-logo-heading">
-            <h2>Adopter</h2>
+            <h3>Adopter</h3>
           </div>
           <div class="index-tjenester-logo-text">
             <p>
@@ -90,12 +84,12 @@
           <div class="index-tjenester-logo-img">
             <img
               class="index-tjenester-logo-svg"
-              src="assets/images/dog training.svg"
+              src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/dog-training.svg"
               alt="trænings logo for adfærdstræning"
             />
           </div>
           <div class="index-tjenester-logo-heading">
-            <h2>Adfærdstræning</h2>
+            <h3>Adfærdstræning</h3>
           </div>
           <div class="index-tjenester-logo-text">
             <p>
@@ -108,12 +102,12 @@
           <div class="index-tjenester-logo-img">
             <img
               class="index-tjenester-logo-svg"
-              src="assets/images/Pasning-af-hund-Odsherred.svg"
+              src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/Pension-hund.svg"
               alt="hundehus logo for pension"
             />
           </div>
           <div class="index-tjenester-logo-heading">
-            <h2>Pension</h2>
+            <h3>Pension</h3>
           </div>
           <div class="index-tjenester-logo-text">
             <p>Vi sørger for, at dine dyr fåret trygt og komfortabel ophold.</p>
@@ -157,7 +151,7 @@
             ven og en utrolig kilde til glæde.
           </p>
           <img
-            src="assets/images/laula-co-ufPziMiRqU8-unsplash.jpg"
+            src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/coolergate.png"
             alt="Portræt af hund fra succes historie"
           />
           <p class="index-succes-stories-navn">John Larsen & Bella</p>
@@ -190,7 +184,9 @@
     <?php  
     $frontpageAnimals = new WP_Query(array(
       'posts_per_page' => 3,
-      'post_type' => 'animal'
+      'post_type' => 'animal',
+      'orderby' => 'title',
+      'order' => 'ASC'
     ));
 
     while($frontpageAnimals->have_posts()) {
@@ -210,7 +206,7 @@
     <h3><?php the_title(); ?></h3>  
     <p><?php the_content(); ?></p>
 
-    <div class="index-find-ven-card-info-grid">
+    <div class="index-find-ven-card-info-grid-venstre">
     <div class="index-find-ven-card-info"> 
     <p>
       <strong>Race: </strong> <?php if (get_field('race_hund')) {
@@ -225,7 +221,7 @@
         the_field('kon');
     } ?>  
     </p>
-
+    <div class="index-find-ven-card-info-højre">
     <p>
       <strong>Alder: </strong> <?php 
         if (get_field('alder')) {
@@ -241,15 +237,64 @@
     
 </div>
 </div>
+</div>
     <a href="<?php echo get_permalink(); ?>"> <button> <?php the_title(); ?></button></a>
 </div>
 <?php } ?>
 </div>  
 </section>
 
-<section class="index-find-ven">
+
+<div class="slideshow-container sektion-mellemrum">
+
+<div class="mySlides fade">
+  <img src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/hunde-krammer-scaled.jpg" style="width:100%;">
+</div>
+
+<div class="mySlides fade">
+  <img src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/hund-leger-med-ejer-scaled.jpg"    style="width:100%;">
+</div>
+
+<div class="mySlides fade">
+  <img src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/anmeldelser-scaled.jpg" style="width:100%;">
+</div>
+
+<div class="mySlides fade">
+  <img src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/katte-sover-scaled.jpg" style="width:100%;">
+</div>
+
+<div class="mySlides fade">
+  <img src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/sod-kat-og-hund.jpg" style="width:100%;">
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let slider = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < slider.length; i++) {
+    slider[i].className = slider[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  slider[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+
+
+</script>
+
+<section class="index-find-ven sektion-mellemrum"> 
       <h2>Eksperternes hjørne</h2>
-      <p>Få et forsmag på vores dyreeksperters rådgivning og indsigt. I Eksperternes Hjørne deler vores dyrelæge og dyreadfærds specialist deres passion og viden om dyreadfærd, sundhed og pleje.</p>
+      <p class="ekspert-tekst">Få et forsmag på vores dyreeksperters rådgivning og indsigt. I Eksperternes Hjørne deler vores dyrelæge og dyreadfærds specialist deres passion og viden om dyreadfærd, sundhed og pleje.</p>
 
       <div class="index-find-ven-flex main-margin">
     <?php  
@@ -283,36 +328,17 @@ $frontpageArticle = new WP_Query(array(
     </div>
 
     <h3><?php the_title(); ?></h3>  
-    <p><?php the_content(); ?></p>
+    <p><?php the_content(); ?> <a class="link-farve" href="<?php echo get_permalink(); ?>"> Læs mere</a></p>
 
     <div class="index-find-ven-card-info-grid">
     <div class="index-find-ven-card-info"> 
     
 </div>
 </div>
-    <a href="<?php echo get_permalink(); ?>"> Læs mere -></a>
 </div>
 <?php } ?>
 </div>  
 </section>
-
-
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="1em"
-                  viewBox="0 0 512 512"
-                >
-                  <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                  <style>
-                    svg {
-                      fill: #ffffff;
-                    }
-                  </style>
-                  <path
-                    d="M226.5 92.9c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5zM100.4 198.6c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM69.2 401.2C121.6 259.9 214.7 224 256 224s134.4 35.9 186.8 177.2c3.6 9.7 5.2 20.1 5.2 30.5v1.6c0 25.8-20.9 46.7-46.7 46.7c-11.5 0-22.9-1.4-34-4.2l-88-22c-15.3-3.8-31.3-3.8-46.6 0l-88 22c-11.1 2.8-22.5 4.2-34 4.2C84.9 480 64 459.1 64 433.3v-1.6c0-10.4 1.6-20.8 5.2-30.5zM421.8 282.7c-24.5-14-29.1-51.7-10.2-84.1s54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3zM310.1 189.7c-32.3-10.6-46.9-53.9-32.6-96.8s52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5z"
-                  />
-                </svg>
-
  <?php get_footer(); ?>
   </body>
 </html>

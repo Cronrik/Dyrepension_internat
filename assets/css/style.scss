@@ -10,6 +10,7 @@
 // generalle styles
 body {
   margin: 0%;
+  text-align: left;
 }
 
 html {
@@ -32,9 +33,11 @@ header nav {
   background-color: #333333;
 }
 header nav svg {
-  width: 200px;
-  height: 100px;
-  margin-left: 4rem;
+  width: 65px;
+  height: 65px;
+  margin-left: 10rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 header nav .nav-links {
   display: flex;
@@ -49,7 +52,7 @@ header nav .nav-links li a {
   text-decoration: none;
   color: #ffffff;
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 header nav .nav-links li a:hover {
   color: beige;
@@ -81,9 +84,8 @@ header nav .nav-links li a:hover {
 
 .footer-kontakt-flex p {
   margin: 0.25rem 0 0 0;
-  max-width: 85%;
-  padding-inline-start: 0.5rem;
-  font-size: 1.2rem;
+  max-width: 100%;
+  font-size: 1rem;
 }
 
 .footer-kontakt-flex h2 {
@@ -93,14 +95,19 @@ header nav .nav-links li a:hover {
 }
 
 .footer-kontakt-flex .åbningstider {
-  margin: 2rem 0 0.2rem 0;
   max-width: 90%;
   font-size: 2.5rem;
+  list-style-type: none;
 }
+
+ol li {
+  list-style-type: none;
+}
+
 
 .footer-kontakt-flex ol {
   margin-top: 0.5rem;
-  padding-inline-start: 2rem;
+  padding-inline-start: 0;
 }
 
 .footer-kontakt-form {
@@ -172,9 +179,13 @@ input[type="submit"]:hover {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  /* filter: blur(4px); */
-  filter: grayscale(30%);
+  filter: blur(20px);
+  filter: grayscale(20%);
   border-radius: 10px 10px 0 0;
+}
+
+.doner-banner h3 {
+  filter: drop-shadow(0 0.4rem 00.35rem grey);
 }
 
 .doner-banner button {
@@ -203,10 +214,10 @@ footer h2 {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 35% 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  justify-items: center;
   max-height: 25rem;
+  gap: 15rem;
 }
 
 footer ul {
@@ -234,11 +245,8 @@ footer a {
   color: #ddd;
 }
 
-footer img {
-  height: auto;
-  width: 18rem;
-  margin-left: 7rem;
-  margin-top: 2.5rem;
+footer a:hover{
+  color: beige;
 }
 
 .footer-sections {
@@ -260,14 +268,8 @@ footer img {
   color: #ddd;
 }
 
-.footer-logo-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-top: 2rem;
-}
-
 .footer-logo svg {
-  height: 200px;
+  height: 130px;
   margin-top: 2rem;
 }
 

@@ -18,26 +18,28 @@
     <!-- pagebanner -->
     <section class="page_banner_about">
         <h1>Om os</h1>
-        <p>Velkommen til Sejr & Davidsens Dyrepension og -internat. Vi er stolte af at være dedikerede til dyrevelfærd
-            og beskyttelse. Lær mere om vores historie, mission og ekspertise.
-            <br><br>
+        <p>
             Vi er glade for at dele vores historie, mission og lidenskab for dyrevelfærd med dig. Lær mere om, hvad der
             driver os, og hvordan vi gør en forskel for dyrene. Velkommen til vores verden af omsorg, engagement og
             kærlighed til vores firbenede venner.
         </p>
     </section>
     <!-- hvem er vi -->
-    <section class="hvem_container">
-        <img src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/gruppebillede-scaled.jpg" alt="hvem er vi">
-        <article>
-            <h2>hvem er vi?</h2>
-            <p>Vi er et dedikeret team af dyreentusiaster med en fælles mission - at sikre, at alle dyr fortjener
-                kærlighed, omsorg og et trygt hjem.
-                Med baggrund som dyrelæge og veterinærsygeplejerske har vi skabt Sejr & Davidsens Dyrepension og
-                -internat for at tilbyde kæledyr et hjem væk fra hjemmet. Vores mål er at gøre en positiv forskel i
-                hvert dyrs liv. Velkommen til vores dyreverden, hvor omsorg og kærlighed er i centrum.
-            </p>
-        </article>
+    <section class="about-introduction main-margin">
+      <div class="about-introduction-flex">
+                <div class="about-introduction-image">
+          <img
+            src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/chewy-1p7TrM0LkXc-unsplash-scaled.jpg"
+            alt="Billede af ejerne med deres hund"
+          />
+        </div>
+        <div class="about-introduction-text">
+          <h2>Hvem er vi?</h2>
+          <p>
+          Sejr & Davidsens Dyrepension og -internat er et sted hvor alle dyr er velkommen. Jeres dyr er altid vores første prioritet og sammen med vores brede vifte af eksperter indenfor alle dyr, vil vi altid yde den bedste service. Vi har været i branchen i 20+ år, så i kan roligt overlade jeres bedste venner til os!
+          </p>
+        </div>
+      </div>
     </section>
     <!-- egengenemt -->
     <section class="engegement_container">
@@ -72,7 +74,8 @@
         </section>
     </section>
     <!-- vores team -->
-        <h2>Mød vores Team</h2>
+    <section class="team-section">
+        <h2 class="overskrift-størrelse">Mød vores Team</h2>
         <div class="index-find-ven-grid main-margin">
     
     <?php 
@@ -88,15 +91,15 @@
     $billedeTeam = get_field('medarbejder_billede');
     $stilling =  get_field('stilling');
         if (get_field('medarbejder_billede')): ?>
-        <div class="index-find-ven-img center-content"><img src="<?php the_field('medarbejder_billede'); ?>"/></div>
+        <div class="index-find-ven-img center-content top-margin"><img src="<?php the_field('medarbejder_billede'); ?>"/></div>
         <?php endif; ?>
 
-    <h2><?php the_title(); ?></h2>  
-        <span class="center-content"> <?php 
+    <h2 class="team-tekst-margin"><?php the_title(); ?></h2>  
+        <p class="center-content team-tekst-margin-p"> <?php 
             if(get_field('stilling')) {
                 the_field('stilling');
             } 
-        ?></span>
+        ?></p>
 
 
     <p><?php the_content(); ?></p>
@@ -106,27 +109,73 @@
     
 </div>
 </div>
-    <a href="<?php echo get_permalink(); ?>"> Læs mere -></a>
 </div>
 <?php } ?>
 </div>
+</section>
 
-    <!-- anmæelser -->
-    <section class="reviews_container">
-        <h2>Anmeldelser</h2>
-        <p>
-            "Jeg kan ikke takke Sejr & Davidsens Dyrepension og -internat nok for den fantastiske pleje, de gav min
-            elskede hund, Bella. Fra det øjeblik vi trådte ind på stedet, kunne vi mærke den kærlighed og
-            professionalisme, der er grundlaget for denne dyrepension. Personalet er utroligt dedikerede og kyndige, og
-            de tog sig af Bella som om hun var deres egen.
-            <br>
-            Bella kom hjem glad og sund, og jeg kunne ikke have bedt om mere. Jeg vil helt sikkert anbefale Sejr &
-            Davidsens Dyrepension og -internat til enhver, der leder efter den bedste pleje til deres kæledyr. De er
-            simpelthen de bedste!"
-        </p>
-        <img src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/katteadfaerd.jpg" alt="reviewer">
-        <h3>Kristian Thomsen</h3>
+    <!-- anmeldelser -->
+<section class="anmeldelser-box">
+      <div class="anmeldelser-backimg"></div>
+      <section class="anmeldelser-flex">
+        <div class="arrow-left">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="3rem"
+            viewBox="0 0 320 512"
+          >
+            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <style>
+              svg {
+                fill: #ffffff;
+              }
+            </style>
+            <path
+              d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"
+            />
+          </svg>
+        </div>
+
+    <section class="anmeldelser-content">
+          <h3>Succeshistorier</h3>
+          <p class="anmeldelser-text">
+            Min historie begyndte som en ensom sjæl på udkig efter mening. Jeg
+            besluttede at besøge Sejr & Davidsens Dyrepension og -internat, og
+            det var her, jeg mødte Bella. Bella, en smuk Labrador-blanding,
+            stjal mit hjerte med det samme. Hendes entusiasme og hengivenhed var
+            smittende. Beslutningen om at adoptere hende var en af de bedste
+            beslutninger, jeg nogensinde har truffet. Siden da har Bella været
+            min trofaste følgesvend. Vi har delt eventyr, latter og utallige
+            øjeblikke af kærlighed. At adoptere Bella fra Sejr & Davidsens
+            Dyrepension var mere end at få en hund; det var at finde min bedste
+            ven og en utrolig kilde til glæde.
+          </p>
+          <img
+            src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/thomas-m.jpg"
+            alt="Portræt af hund fra succes historie"
+          />
+          <p class="anmeldelser-navn">Kristian Thomsen</p>
+        </section>
+        <div class="arrow-right">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="3rem"
+            viewBox="0 0 320 512"
+          >
+            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <style>
+              svg {
+                fill: #ffffff;
+              }
+            </style>
+            <path
+              d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"
+            />
+          </svg>
+        </div>
+      </section>
     </section>
+    
 </body>
 <?php get_footer(); ?>
 </html>

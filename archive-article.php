@@ -19,9 +19,9 @@
       </div>
     </section>
 
-    <section class="index-find-ven">
+    <section class="index-find-ven sektion-mellemrum">
       <h2>Eksperternes hjørne</h2>
-      <p>Få et forsmag på vores dyreeksperters rådgivning og indsigt. I Eksperternes Hjørne deler vores dyrelæge og dyreadfærds specialist deres passion og viden om dyreadfærd, sundhed og pleje.</p>
+      <p class="ekspert-tekst">Få et forsmag på vores dyreeksperters rådgivning og indsigt. I Eksperternes Hjørne deler vores dyrelæge og dyreadfærds specialist deres passion og viden om dyreadfærd, sundhed og pleje.</p>
 
       <div class="index-find-ven-grid main-margin">
     
@@ -34,35 +34,34 @@
     'order' => 'DSC'
 ));
 
-    while($frontpageArticle->have_posts()) {
-      $frontpageArticle-> the_post();?>
-      <div class="index-find-ven-grid-card">
-    <?php 
-    $dato = get_field('dato');
-    $forfatter = get_field('forfatter');
-    $kategori =  get_field('kategori');
-    $billedeArtikel = get_field('billede_artikel');
-        if (get_field('billede_artikel')): ?>
-        <div class="index-find-ven-img center-content"><img src="<?php the_field('billede_artikel'); ?>"/></div>
-        <?php endif; ?>
+while($frontpageArticle->have_posts()) {
+  $frontpageArticle-> the_post();?>
+  <div class="index-find-ven-card">
+<?php 
+$dato = get_field('dato');
+$forfatter = get_field('forfatter');
+$kategori =  get_field('kategori');
+$billedeArtikel = get_field('billede_artikel');
+    if (get_field('billede_artikel')): ?>
+    <div class="index-find-ven-img center-content"><img src="<?php the_field('billede_artikel'); ?>"/></div>
+    <?php endif; ?>
 
 <div class="index-eksperternes-hjørne-content-info">
-    <span><?php if (get_field('forfatter')){ the_field('forfatter');} ?></span>
-    <div class="info-divider"></div>
-    <span><?php if (get_field('dato')) { the_field('dato'); }?></span>
-    <div class="info-divider"></div>
-    <span><?php if (get_field('kategori')){ the_field('kategori');} ?></span>
-    </div>
+<span><?php if (get_field('forfatter')){ the_field('forfatter');} ?></span>
+<div class="info-divider"></div>
+<span><?php if (get_field('dato')) { the_field('dato'); }?></span>
+<div class="info-divider"></div>
+<span><?php if (get_field('kategori')){ the_field('kategori');} ?></span>
+</div>
 
-    <h3><?php the_title(); ?></h3>  
-    <p><?php the_content(); ?></p>
+<h3><?php the_title(); ?></h3>  
+<p><?php the_content(); ?> <a class="link-farve" href="<?php echo get_permalink(); ?>"> Læs mere</a></p>
 
-    <div class="index-find-ven-card-info-grid">
-    <div class="index-find-ven-card-info"> 
-    
+<div class="index-find-ven-card-info-grid">
+<div class="index-find-ven-card-info"> 
+
 </div>
 </div>
-    <a href="<?php echo get_permalink(); ?>"> Læs mere -></a>
 </div>
 <?php } ?>
 </div>  
