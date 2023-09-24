@@ -1,0 +1,210 @@
+// About
+.page_banner_about {
+    // generelle
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/om-os-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+
+
+    // specifikke styles
+    h1 { 
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -80%);
+        font-family: 'Merriweather', serif;
+        font-size: 2.8rem;
+    }
+
+    p {
+        text-align: center;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.2rem;
+    }
+}
+
+.about-introduction-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem 0;
+    color: #38291f;
+  }
+  
+  .about-introduction-text {
+    max-width: 45%;
+  }
+  
+  .about-introduction-text h2 {
+    font-size: 3rem;
+    margin-bottom: -0.5rem;
+  }
+  
+  .about-introduction-text p {
+    font-size: 1.2rem;
+    max-width: 90%; 
+  }
+  
+  .about-introduction-image img {
+    max-height: 350px;
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  .about-introduction-image {
+    max-width: 50%;
+  }
+  
+
+.engegement_container {
+    // grid
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    // generalle 
+    background-image: url(../images/pexels-phil-kallahar-983200.png);
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 800px;
+    position: relative;
+
+    // specifikke
+    .infocol {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        max-width: 70%;
+        margin-left: 10%;
+        margin-top: 10%;
+
+        h2 {
+            font-family: 'Merriweather', serif;
+            font-size: 2.5rem;
+            max-width: 60%;
+        }
+
+        p {
+            font-family: 'Raleway', sans-serif;
+            max-width: 55%;
+            font-size: 1rem;
+        }
+    }
+
+    .imgcol {
+        grid-column-start: 4;
+        grid-column-end: 4;
+    }
+
+    .pet_1 {
+        width: 300px;
+        height: 210px;
+        border-radius: 15px;
+        position: absolute;
+        top: 40%;
+        left: 70%;
+        transform: translate(-60%, -60%);
+    }
+
+    .pet_2 {
+        width: 300px;
+        height: 210px;
+        border-radius: 15px;
+        position: absolute;
+        top: 55%;
+        left: 80%;
+        transform: translate(-60%, -60%);
+    }
+
+    .pet_3 {
+        width: 300px;
+        height: 210px;
+        border-radius: 15px;
+        position: absolute;
+        top: 70%;
+        left: 70%;
+        transform: translate(-60%, -60%);
+    }
+}
+
+.top-margin {
+    margin-top: 0.4rem;
+}
+
+.team-tekst-margin{
+    margin: 0.7rem;
+}
+
+.team-tekst-margin-p {
+    margin: -0.6rem;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.overskrift-størrelse {
+    font-size: 2.5rem;
+}
+
+.team-section {
+    text-align: center;
+    margin: 5rem 0; 
+}
+
+.anmeldelser-backimg {
+    background-image: url(../images/anmeldelser.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10rem 0 -25rem 0;
+    filter: blur(2px) brightness(55%);
+    background-position: 0 -180px;
+    
+}
+  
+.anmeldelser-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-image: url();
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  z-index: 2;
+  width: 80%;
+  text-align: center;
+  color: white;
+}
+
+.anmeldelser-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.anmeldelser-content h3 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.anmeldelser-text {
+  width: 60%;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.anmeldelser-content img {
+  width: 80px;
+  border-radius: 50%;
+}

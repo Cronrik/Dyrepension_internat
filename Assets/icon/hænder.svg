@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352.41 347.52">
+  <path d="m69.52,343.52v-62.22L12.27,173.53s-8.71-6.42-8.25-28.43,0-100.43,0-100.43c0,0,17.66-34.39,34.62,0v90.34s-3.67,11.46,36.23,55.26" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="8"/>
+  <path d="m38.64,135.01s11.69-34.17,35.08-6.19,72,84.38,80.03,107.54v107.16" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="8"/>
+  <ellipse cx="109.2" cy="52.38" rx="10.64" ry="13.22" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="8"/>
+  <ellipse cx="150.46" cy="19.82" rx="11.85" ry="15.82" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="8"/>
+  <ellipse cx="202.44" cy="20.59" rx="12.92" ry="16.59" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="8"/>
+  <ellipse cx="244.25" cy="52.38" rx="9.94" ry="13.22" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="8"/>
+  <path d="m176.73,55.52s-51.31,9.83-56.89,56.41c-5.68,47.39,56.89,33.32,56.89,33.32" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="8"/>
+  <path d="m175,55.52s53.04,9.83,58.62,56.41c5.68,47.39-58.62,33.36-58.62,33.36" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="8"/>
+  <path d="m282.89,341.59v-62.22s57.25-107.77,57.25-107.77c0,0,8.71-6.42,8.25-28.43-.46-22.01,0-100.43,0-100.43,0,0-17.66-34.39-34.62,0v90.34s3.67,11.46-36.23,55.26" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="8"/>
+  <path d="m313.77,133.08s-11.69-34.17-35.08-6.19c-23.39,27.97-72,84.38-80.03,107.54v107.16" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="8"/>
+</svg>

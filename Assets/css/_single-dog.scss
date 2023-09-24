@@ -1,0 +1,149 @@
+.intro_subpage {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-left: 15%;
+    margin-bottom: 1%;
+
+    h1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        font-family: 'Merriweather', serif;
+    }
+
+    p {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        font-family: 'Raleway', sans-serif;
+        width: 500px;
+    }
+}
+
+.single-dog-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.single-dog-flex-right {
+    max-width: 50%;
+    margin-left: 25px;
+}
+
+.single-dog-flex-left {
+    max-width: 50%;
+}
+
+.img_subpage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    margin-left: 13%;
+    width: 78%;
+
+
+    .petshowcase1 {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .petshowcase2 {
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+}
+
+.raceinfo_subpage {
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    margin-left: 13%;
+    margin-right: 13%;
+
+
+    article {
+        h2 {
+            grid-column-start: 1;
+            grid-column-end: 1;
+            font-family: 'Merriweather', serif;
+        }
+
+        p {
+            grid-column-start: 1;
+            grid-column-end: 1;
+            font-family: 'Raleway', sans-serif;
+        }
+    }
+}
+
+.heath_subpage {
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    margin-left: 13%;
+    margin-right: 13%;
+
+    article {
+        h2 {
+            grid-column-start: 1;
+            grid-column-end: 1;
+            font-family: 'Merriweather', serif;
+        }
+
+        p {
+            grid-column-start: 1;
+            grid-column-end: 1;
+            font-family: 'Raleway', sans-serif;
+        }
+    }
+}
+
+.devider_subpage h2{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 2.5rem;        
+    color: #38291F;
+    font-family: 'Merriweather', serif;
+    
+}
+
+.FAQ_subpage {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row-start: 7;
+    grid-row-end: 7;
+    margin-top: 1%;
+    margin-left: 13%;
+    margin-right: 13%;
+
+    img {
+        width: 100%;
+        height: 400px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    article {
+        grid-column-start: 2;
+        grid-column-end: 4;
+
+        h3 {
+            font-family: 'Merriweather', serif;
+        }
+
+        p {
+            font-family: 'Raleway', sans-serif;
+        }
+        ul{
+            li{
+                list-style-type: none;
+            }
+        }
+    }
+}

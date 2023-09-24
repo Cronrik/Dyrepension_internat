@@ -1,0 +1,37 @@
+// Eksperterne styling
+
+/* Hero anner style */
+.hero-banner-eksperterne {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/eksperternes-hjørne-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+}
+
+/* H1 style hero */
+.hero-content-eksperterne h1 {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Paragraf style hero  */
+.hero-content-eksperterne p {
+  font-size: 20px;
+  margin: 10px;
+}
+
+/* Hero Content styling */
+
+.hero-content-eksperterne {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}

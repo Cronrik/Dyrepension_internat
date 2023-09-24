@@ -1,0 +1,58 @@
+// Konktakt Styling
+
+.hero-banner-kontakt {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/kontakt-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+}
+
+
+.hero-content-kontakt h1 {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+.hero-content-kontakt p {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.hero-content-kontakt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+
+.information {
+  padding: 40px;
+}
+
+
+.grid-container-kontakt {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.grid-item-kontakt:nth-child(1) {
+  grid-column: 2 / span 2;
+}
+
+.grid-item-kontakt:nth-child(2) {
+  grid-column: 4 / span 2;
+}
+
+.grid-item-kontakt:nth-child(3) {
+  grid-column: 6 / span 2;
+}
+

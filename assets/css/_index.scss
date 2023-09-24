@@ -1,0 +1,309 @@
+// Index Site
+
+/* ------------------------Banner-------------------------------- */
+
+.hero-banner-img {
+  background-image: url(../images/forside-hero.jpg);
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: blur(2px) brightness(70%);
+}
+
+.hero-banner-content {
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  text-align: center;
+}
+
+.hero-banner-content h1 {
+  font-size: 2.8rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.hero-banner-content p {
+  font-size: 1.1rem;
+  width: 70%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.arrow-down-banner {
+  color: white;
+  margin-top: 3rem;
+}
+/* ---------------------------Introduktion Index ------------------*/
+
+.index-introduction-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5rem 0;
+  color: #38291f;
+}
+
+.index-introduction-text {
+  max-width: 50%;
+}
+
+.index-introduction-text h2 {
+  font-size: 3rem;
+  margin-bottom: -0.5rem;
+}
+
+.index-introduction-text p {
+  font-size: 1.2rem;
+  max-width: 90%; 
+}
+
+.index-introduction-image img {
+  max-height: 350px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+/* ------------------------Index tjenester----------------------- */
+
+.index-tjenester-logo-flex {
+  margin-top: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.index-tjenester-logo-single {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 30%;
+  text-align: center;
+}
+
+.index-tjenester-logo-img img {
+  max-width: 50%;
+  padding: 1.5rem;
+  overflow: visible;
+  background-color: #fff8f1;
+  border-radius: 50%;
+  filter: drop-shadow(0 0.7rem 0.25rem grey);
+}
+
+.index-tjenester-logo-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: -1rem 0 -2rem;
+}
+
+.index-tjenester-logo-text {
+  font-size: 1.2rem;
+  max-width: 70%;
+  color: #333333;
+  font-weight: 300;
+}
+
+/* ----------------------Succes historier------------------------ */
+
+.index-succes-stories-backimg {
+  background-image: url(../images/success.jpg);
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10rem 0 -25rem 0;
+  filter: blur(2px) brightness(55%);
+  background-position: 0 -180px;
+}
+
+.index-succes-stories-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-image: url();
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  z-index: 2;
+  width: 80%;
+  text-align: center;
+  color: white;
+}
+
+.index-succes-stories-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.index-succes-stories-content h3 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.index-succes-stories-text {
+  width: 60%;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.index-succes-stories-content img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+/* ----------------------Index Find bedste ven------------------- */
+
+.index-find-ven-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.index-find-ven-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.index-find-ven h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+
+.index-find-ven-button button {
+  margin: 2rem 0 5rem 0;
+  background-color: #5c5351;
+  color: #fff8f1;
+  padding: 0.5% 3%;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+
+.index-find-ven-card {
+  background-color: #5c5351;
+  padding: 0 0.5rem;
+  color: #fff8f1;
+  border-radius: 15px;
+  max-width: 100%;
+  min-height: 467px;
+}
+
+.index-find-ven-grid-card {
+  background-color: #5c5351;
+  padding: 0 0.5rem;
+  color: #fff8f1;
+  border-radius: 15px;
+  max-width: 100%;
+}
+
+.index-find-ven-card h3 {
+  font-size: 2rem;
+  margin: 0.8rem 0 -0.5rem 0;
+}
+
+.index-find-ven-card img {
+  max-width: 100%;
+  margin-top: 0.5rem;
+  border-radius: 15px;
+}
+
+.index-find-ven-card button {
+  background-color: #fff8f1;
+  color: #333333;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 2.5% 10%;
+  position: relative;
+  transform: translateX(75%);
+  border-radius: 15px;
+  margin-bottom: 1rem;
+}
+
+.index-find-ven-card-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 100%;
+  column-gap: 1rem;
+  row-gap: -0.5rem;
+}
+
+.index-find-ven-card-info-højre, .index-find-ven-card-info-grid-venstre {
+  max-width: 80%;
+}
+
+
+/* ---------------------- Styling slideshow --------------------*/
+.mySlides {display: none;}
+.slideshow-container {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* ----------------------Index Eksperternes hjørne--------------- */
+
+.sektion-mellemrum {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.ekspert-tekst {
+  font-size: 1rem;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.index-eksperternes-hjørne-content-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.8rem;
+}
+
+.info-divider {
+  height: 20px;
+  width: 2px;
+  background-color: #FFF8F1;
+}
+
+.link-farve{
+  color: #FFF8F1;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.link-farve:hover {
+  text-decoration: underline;
+}
+
+
