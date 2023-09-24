@@ -25,15 +25,14 @@
 
         <div class="nav-items">
           <ul class="nav-links">
+            <!-- Vi brugte ikke permalinks, men det ville det være i næste iteration af hjemmesiden -->
             <li><a href="/hjem">Hjem</a></li>
             <li><a href="/om-os">Om os</a></li>
             <li><a href="/tjenester">Tjenester</a></li>
-            <!-- Lav tjenester til dropdown med de tre tjenester-->
             <li><a href="/eksperternes-hjorne">Eksperternes hjørne</a></li>
             <li><a href="/kontakt">Kontakt</a></li>
           </ul>
         </div>
       </nav>
     </header>
-  </body>
-</html>
+

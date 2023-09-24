@@ -16,43 +16,14 @@ img {
     max-width: 100%; 
 }
 
-  .article {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
+.billede-tekst {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
   
-  .article h1 {
-    font-size: 36px;
-  }
-  
-  .article .details {
-    font-size: 14px;
-    margin-top: 10px;
-  }
-  
-  .article .details span {
-    margin: 0 10px;
-  }
-  
-  .article .separator {
-    border-top: 1px solid #333;
-    margin: 10px auto;
-    width: 20%;
-  }
-  
-  .article p {
-    font-size: 15px;
-    text-align: center;
-  }
+}
 
-  .billede-tekst {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: left;
-  }
-  
   .parent {
     display: grid;
     grid-template-columns: 1fr repeat(2, 2fr) 1fr;
@@ -117,5 +88,4 @@ img {
 .grid-item:nth-child(3) {
     grid-column: 8 / span 2;
 }
-      
-  
+

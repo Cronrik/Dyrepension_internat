@@ -12,18 +12,17 @@
       <div class="hero-content-eksperterne">
         <h1>Eksperternes hjørne</h1>
         <p>
-          Deltag i vores eksperters verden af dyrevelfærd, træning og sundhed.
-          Få rådgivning fra de bedste for at skabe et lykkeligt liv for dine
-          kæledyr.
+          Følg med i vores eksperters verden i dyrevelfærd, træning og sundhed. Her kan du blandt andet få rådgivning af de bedste i branchen og være sikker på at dit kæledyr har en sundt og lykkeligt liv.  
         </p>
       </div>
     </section>
 
-    <section class="index-find-ven sektion-mellemrum">
-      <h2>Eksperternes hjørne</h2>
-      <p class="ekspert-tekst">Få et forsmag på vores dyreeksperters rådgivning og indsigt. I Eksperternes Hjørne deler vores dyrelæge og dyreadfærds specialist deres passion og viden om dyreadfærd, sundhed og pleje.</p>
 
-      <div class="index-find-ven-grid main-margin">
+    <section class="index-find-ven sektion-mellemrum">
+
+    <!-- Her er det meningen der skulle være en filtrerings mulighed, som der også ses i desginet -->
+
+    <div class="index-find-ven-grid main-margin">
     
     <?php 
   
@@ -67,7 +66,5 @@ $billedeArtikel = get_field('billede_artikel');
 </div>  
 </section>
 
-
-  </body>
   <?php get_footer(); ?>
-</html>
+

@@ -1,26 +1,12 @@
 <?php wp_head(); ?>
-
-<!DOCTYPE html>
-<html lang="da">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index</title>
-    <link rel="stylesheet" href="Assets/css/style.css" />
-    <script src="../assets/Javascipt/app.js" defer></script>
-  </head>
-  <body>
+<!-- ALLE BILLEDER ER TAGET FRA https://www.colourbox.dk -->
   <?php get_header(); ?>
     <section class="hero-banner-box">
     <div class="hero-banner-img"></div>
       <div class="hero-banner-content">
         <h1>Velkommen til Sejr & Davidsen Dyrepension og -internat</h1>
         <p>
-          Vi byder dig velkommen til vores omsorogsfulde univers, hvor kæledyrs
-          trivsel og lykkke er vores højeste prioritet. Som Nordjyllands førende
-          dyrepension og internat arbejder vi dedikeret for at give dine elskede
-          firbenede familiemedlemmer den bedste pleje og opmækrsomhed.
+          Her arbejder vi dedikeret på at sørge for alle kæledyrs har det godt! Jeres kæledyr er nemlig vores førsteprioritet. Her kan du sammentidig også møde dit næste kæledyr, og give dem det liv de drømmer om, samt lærer alt hvad du skal vide om dit kæledyr.   
         </p>
         <div class="arrow-down-banner center-content">
           <svg
@@ -53,7 +39,7 @@
         </div>
         <div class="index-introduction-image">
           <img
-            src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/chewy-1p7TrM0LkXc-unsplash-scaled.jpg"
+            src="https://www.alexanderhusumsantis.com/wp-content/uploads/2023/09/chewy-1p7TrM0LkXc-unsplash-scaled.jpg"
             alt="Billede af ejerne med deres hund"
           />
         </div>
@@ -66,7 +52,7 @@
           <div class="index-tjenester-logo-img">
             <img
               class="index-tjenester-logo-svg"
-              src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/haender.svg"
+              src="https://www.alexanderhusumsantis.com/wp-content/uploads/2023/09/haender.svg"
               alt="hænder logo for adoption"
             />
           </div>
@@ -75,8 +61,7 @@
           </div>
           <div class="index-tjenester-logo-text">
             <p>
-              Hos os kan du finde din nye bedste ven, og give et hjem, til en
-              herreløs ven
+              Hos os kan du finde din nye bedste ven, og give det hjem som de fortjener og drømmer om. 
             </p>
           </div>
         </div>
@@ -84,7 +69,7 @@
           <div class="index-tjenester-logo-img">
             <img
               class="index-tjenester-logo-svg"
-              src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/dog-training.svg"
+              src="https://www.alexanderhusumsantis.com/wp-content/uploads/2023/09/dog-training.svg"
               alt="trænings logo for adfærdstræning"
             />
           </div>
@@ -93,8 +78,7 @@
           </div>
           <div class="index-tjenester-logo-text">
             <p>
-              Skab harmoni med dit kæledyr og lær alt om adfærdstræning af vores
-              erfarne trænere.
+              Lær alt om adfærdstræning af vores erfarne trænere, og skab et helt unikt forhold til dit kæledyr.
             </p>
           </div>
         </div>
@@ -102,7 +86,7 @@
           <div class="index-tjenester-logo-img">
             <img
               class="index-tjenester-logo-svg"
-              src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/Pension-hund.svg"
+              src="https://www.alexanderhusumsantis.com/wp-content/uploads/2023/09/Pension-hund.svg"
               alt="hundehus logo for pension"
             />
           </div>
@@ -110,7 +94,7 @@
             <h3>Pension</h3>
           </div>
           <div class="index-tjenester-logo-text">
-            <p>Vi sørger for, at dine dyr fåret trygt og komfortabel ophold.</p>
+            <p>Vi sørger for, at dine dyr får et trygt og komfortabelt ophold, med et hav af sjove aktiviteter.</p>
           </div>
         </div>
       </div>
@@ -139,22 +123,13 @@
         <section class="index-succes-stories-content">
           <h3>Succeshistorier</h3>
           <p class="index-succes-stories-text">
-            Min historie begyndte som en ensom sjæl på udkig efter mening. Jeg
-            besluttede at besøge Sejr & Davidsens Dyrepension og -internat, og
-            det var her, jeg mødte Bella. Bella, en smuk Labrador-blanding,
-            stjal mit hjerte med det samme. Hendes entusiasme og hengivenhed var
-            smittende. Beslutningen om at adoptere hende var en af de bedste
-            beslutninger, jeg nogensinde har truffet. Siden da har Bella været
-            min trofaste følgesvend. Vi har delt eventyr, latter og utallige
-            øjeblikke af kærlighed. At adoptere Bella fra Sejr & Davidsens
-            Dyrepension var mere end at få en hund; det var at finde min bedste
-            ven og en utrolig kilde til glæde.
+            Min historie begyndte med, at jeg følte mig lidt ensom. Jeg besluttede mig derfor at jeg skulle have noget selskab i huset, og besøgte derfor Sejr & Davidsens Dyrepension og -internat, og det var her jeg mødte min nye sjæleven Smila. Jeg vidste med at samme, at mig og Smila havde en helt unik connection, det fangede mig så hurtigt. Smila er en Labrador og var kun 1.5 år da jeg adopterede hende. Den beslutning jeg tog den dag om at adoptere Smila, er den bedste beslutning jeg nogensinde har taget! Hun har siden stået trofast og loyal ved min side, og det er nu snart 1 år siden. Vi har allerede delt et hav af eventyr, og jeg kan bare mærke hun var den brik jeg manglede i mit liv. Jeg er ikke kun taget fra Sejr & Davidsen med en ny hund. Jeg har fundet min helt nye bedste ven, og denne fantastiske humør bombe, som gør hver dag til et eventyr.
           </p>
           <img
-            src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/coolergate.png"
+            src="https://www.alexanderhusumsantis.com/wp-content/uploads/2023/09/coolergate.png"
             alt="Portræt af hund fra succes historie"
           />
-          <p class="index-succes-stories-navn">John Larsen & Bella</p>
+          <p class="index-succes-stories-navn">John Larsen & Smila</p>
         </section>
         <div class="arrow-right">
           <svg
@@ -176,11 +151,11 @@
       </section>
     </section>
 
-    <!-- Custom Query til at vise animals på front page, med custom post type animal -->
-    
     <section class="index-find-ven">
       <h2>Find din nye bedste ven</h2>
       <div class="index-find-ven-flex main-margin">
+
+          <!-- Custom Query til at vise animals på front page, med custom post type animal, og så sorteres de alfabetisk -->
     <?php  
     $frontpageAnimals = new WP_Query(array(
       'posts_per_page' => 3,
@@ -188,18 +163,21 @@
       'orderby' => 'title',
       'order' => 'ASC'
     ));
-
+      // The loop. Her kigger vi på vores custom post type Animal, hvor vi fortæller den at den skal give os tre posts. 
     while($frontpageAnimals->have_posts()) {
       $frontpageAnimals-> the_post();?>
       <div class="index-find-ven-card">
     <?php 
-    $hvilketDyr = get_field('dyr');
-    $hundeRace = get_field('race_hund');
-    $katteRace =  get_field('race_kat');
-    $dyreKon = get_field('kon');
-    $dyreAlder = get_field('alder');
-    $fungereMed = get_field('fungere_godt_med_');
-    $dyreBillede = get_field('billede_af_dyret_');
+      // <--------- Her laver vi en række varibler, men fandt efterfølgende ud af, at de ikke var en nødvendighed for at få fat på ACF. ---------->
+    // $hvilketDyr = get_field('dyr');
+    // $hundeRace = get_field('race_hund');
+    // $katteRace =  get_field('race_kat');
+    // $dyreKon = get_field('kon');
+    // $dyreAlder = get_field('alder');
+    // $fungereMed = get_field('fungere_godt_med_');
+    // $dyreBillede = get_field('billede_af_dyret_');
+
+    // <------ herunder displayer vi ACF resultater med if som kigger på value og efterfølgende displayer den. Og det fortsætter således, ned til det sidste IF statement. 
         if (get_field('billede_af_dyret_')): ?>
         <div class="index-find-ven-img center-content"><img src="<?php the_field('billede_af_dyret_'); ?>"/></div>
         <?php endif; ?>
@@ -209,6 +187,7 @@
     <div class="index-find-ven-card-info-grid-venstre">
     <div class="index-find-ven-card-info"> 
     <p>
+      <!-- Her kigger IF på om det er "race hund" eller "race kat". -->
       <strong>Race: </strong> <?php if (get_field('race_hund')) {
      the_field('race_hund');
     }    else if (get_field('race_kat')) {
@@ -230,7 +209,7 @@
     </p>
 
     <p>
-      <strong>Fungere godt med: </strong> <?php if (get_field('fungere_godt_med_')) {
+      <strong>Fungerer godt med: </strong> <?php if (get_field('fungere_godt_med_')) {
       the_field('fungere_godt_med_'); 
     } ?>
     </p>
@@ -244,51 +223,59 @@
 </div>  
 </section>
 
+<!-- div sektion for slider. Den har vi ladet os inspirere af fra dette link, og ændret den baseret på behov: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto -->
 
 <div class="slideshow-container sektion-mellemrum">
 
 <div class="mySlides fade">
-  <img src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/hunde-krammer-scaled.jpg" style="width:100%;">
+  <img src="https://www.alexanderhusumsantis.com/wp-content/uploads/2023/09/hunde-krammer-scaled.jpg" style="width:100%;">
 </div>
 
 <div class="mySlides fade">
-  <img src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/hund-leger-med-ejer-scaled.jpg"    style="width:100%;">
+  <img src="https://www.alexanderhusumsantis.com/wp-content/uploads/2023/09/hund-leger-med-ejer-scaled.jpg"    style="width:100%;">
 </div>
 
 <div class="mySlides fade">
-  <img src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/anmeldelser-scaled.jpg" style="width:100%;">
+  <img src="https://www.alexanderhusumsantis.com/wp-content/uploads/2023/09/anmeldelser-scaled.jpg" style="width:100%;">
 </div>
 
 <div class="mySlides fade">
-  <img src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/katte-sover-scaled.jpg" style="width:100%;">
+  <img src="https://www.alexanderhusumsantis.com/wp-content/uploads/2023/09/katte-sover-scaled.jpg" style="width:100%;">
 </div>
 
 <div class="mySlides fade">
-  <img src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/sod-kat-og-hund.jpg" style="width:100%;">
+  <img src="https://www.alexanderhusumsantis.com/wp-content/uploads/2023/09/sod-kat-og-hund.jpg" style="width:100%;">
 </div>
-
+  </div>
 <script>
+  // Laver slideIndex variabel med value "0". Kalder på funktion showSlides()
 let slideIndex = 0;
 showSlides();
 
+// Laver funktionen, 3 variabler, hvor i to af dem, pejer vi på "mySlides" klassen 
 function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
   let slider = document.getElementsByClassName("mySlides");
+
+  // Laver for loop, der siger "I = O", hvis I er mindre end slides variablens længde, kommer der en ny iteration
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
+
+  // slideIndex++ sørger for at den skifter billede
   slideIndex++;
+  // if starter loopet forfra når vi når til det femte billede
   if (slideIndex > slides.length) {slideIndex = 1}
+  // dette loop fjerner klassen "active" fra alle slides
   for (i = 0; i < slider.length; i++) {
     slider[i].className = slider[i].className.replace(" active", "");
   }
+  // her sættes nuværende slider til at displayes med block, samt giver klassen active
   slides[slideIndex-1].style.display = "block";
   slider[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  setTimeout(showSlides, 2000); 
 }
-
-
 
 </script>
 
@@ -299,6 +286,8 @@ function showSlides() {
       <div class="index-find-ven-flex main-margin">
     <?php  
 
+
+//   <!-- Custom Query til at vise artikler på front page, med custom post type articles, og så sorteres de efter dato -->
 $frontpageArticle = new WP_Query(array(
   'post_type' => 'article', 
   'posts_per_page' => 3,
@@ -307,6 +296,7 @@ $frontpageArticle = new WP_Query(array(
   'order' => 'DSC'
 ));
 
+// Næsten 1:1 med det while loppe som er brugt tideligere. Det vi kalder på her, er bare baseret på en anden ACF som er rettet mod vores Artikler.
     while($frontpageArticle->have_posts()) {
       $frontpageArticle-> the_post();?>
       <div class="index-find-ven-card">
@@ -339,6 +329,5 @@ $frontpageArticle = new WP_Query(array(
 <?php } ?>
 </div>  
 </section>
- <?php get_footer(); ?>
-  </body>
-</html>
+<?php get_footer(); ?>
+

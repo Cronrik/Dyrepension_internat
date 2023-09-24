@@ -39,17 +39,12 @@
 
 .img_subpage {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     grid-row-start: 4;
     grid-row-end: 4;
     margin-left: 13%;
-    width: 100%;
+    width: 78%;
 
-    img {
-        width: 450px;
-        height: 500px;
-        border-radius: 15px;
-    }
 
     .petshowcase1 {
         grid-column-start: 1;
@@ -109,21 +104,13 @@
     }
 }
 
-.devider_subpage {
-    display: grid;
-    grid-template-columns: auto;
-    grid-row-start: 6;
-    grid-row-end: 6;
-    height: 500px;
-    background-image: url(/assets/img/Bella_cropped.png);
-
-    h2 {
-        text-align: center;
-        margin-top: 10%;
-        font-size: 70px;
-        color: white;
-        font-family: 'Merriweather', serif;
-    }
+.devider_subpage h2{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 2.5rem;        
+    color: #38291F;
+    font-family: 'Merriweather', serif;
+    
 }
 
 .FAQ_subpage {

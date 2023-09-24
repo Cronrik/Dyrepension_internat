@@ -55,7 +55,7 @@
 </div>
 </section>
         <!-- lidt mere omh bella -->
-        <section class="info_subpage">
+        <section class="raceinfo_subpage">
             <h2>Lidt om mig</h2>
             <p>
                 Mit navn er Bella og jeg er ret ny her hos Sejr og Davidsen. Mine gamle ejere kunne desværre ikke
@@ -97,7 +97,7 @@
         <section class="raceinfo_subpage">
             <article>
                 <h2>
-                    Lidt om Racen
+                    Lidt om racen
                 </h2>
                 <p>
                     Beagles er en aktiv race. De er frygtløse og meget kloge! I gamle dage blev de avlet som jagthunde.
@@ -145,12 +145,13 @@
             </article>
         </section>
         <!-- opdeleer -->
+        <hr style="width: 50%">
         <section class="devider_subpage">
             <h2>Overvejelser før du adoptere</h2>
         </section>
         <section class="FAQ_subpage">
             <section>
-                <img src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/adoption-scaled.jpg" alt="">
+                <img src="https://www.alexanderhusumsantis.com/wp-content/uploads/2023/09/adoption-scaled.jpg" alt="hund giver pote">
             </section>
             <article>
                 <ul>
@@ -162,17 +163,14 @@
                         eftertanke om man har råd til at give hunden det liv den fortjener.
                     </p>
                     <hr>
-                    <li><h3>Har jeg tid</h3></li>
+                    <li><h3>Har jeg tid?</h3></li>
                     <hr>
-                    <li><h3>har jeg plads</h3></li>
+                    <li><h3>Har jeg plads?</h3></li>
                     <hr>
-                    <li><h3>race og køn</h3></li>
+                    <li><h3>Race og køn?</h3></li>
                     <hr>
-                    <li><h3>Børn</h3></li>
+                    <li><h3>Børn?</h3></li>
                     <hr>
                 </ul>
             </article>
         </section>
-    </body>
-
-    </html>

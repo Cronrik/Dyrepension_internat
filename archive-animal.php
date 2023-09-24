@@ -5,25 +5,24 @@
     <!-- pagebanner -->
     <section class="page_banner_sevices">
         <h1>Vores tjenester</h1>
-        <p>Vi er her for at tilbyde kærlig pleje, adfærdstræning og adoptionsmuligheder til dine kæledyr. Lad os sammen
-            gøre en positiv forskel for dyrene.
+        <p>Vi er her for at tilbyde pleje og adfærdstræning til dine kæledyr , samt adoptionsmuligheder for at finde dit næste kæledyr. Lad os sammen gøre en forskel for dyrene.
         </p>
     </section>
-    
+
     <section class="service-adoption main-margin">
       <div class="service-adoption-flex">
         <div class="service-adoption-text">
           <h2>Adoption</h2>
           <p>
-                I vores adoptionstjeneste tror vi på at give herreløse dyr en ny start på livet. Vores dedikerede
-                team arbejder hårdt for at matche kærlige familier med kæledyr, der længes efter et kærligt hjem. Når du vælger at adoptere gennem os, giver du ikke bare et kæledyr en chance, men du bliver også en del af vores hjertevarme fællesskab. Vi tror på, at ethvert dyr fortjener kærlighed og en chance for at trives, og vi er her for at hjælpe dig med at finde din perfekte følgesvend.I vores
-                adoptionstjeneste tror vi på at give herreløse dyr en ny start på livet. Vores dedikerede team arbejder hårdt for at matche kærlige familier med kæledyr, der længes efter et kærligt hjem. Når du vælger at adoptere gennem os, giver du ikke bare et kæledyr en chance, men du bliver også en del af vores hjertevarme fællesskab. Vi tror på, at ethvert dyr fortjener kærlighed og en chance for at trives, og vi er her for at hjælpe dig med at finde din perfekte følgesvend.
+                I vores adoptionstjeneste tror vi på at vi kan give herreløse dyr en ny start. Vores dedikerede
+                team arbejder hver dag på at matche kærlige familier med kæledyr, der længes efter en ny familie. Når du vælger at adoptere hos Sejr & Davidsen, giver du ikke bare et kæledyr en ny chance, men du bliver også en del af vores unikke fællesskab. Vi tror på, at ethvert dyr fortjener kærlighed og en chance for at trives, og vi er her for at hjælpe dig med at finde din nye sjæleven. I vores
+                adoptionstjeneste tror vi på at give herreløse dyr den nye start på livet de fortjener.
           </p>
         </div>
         <div class="service-adoption-image">
           <img
-            src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/hund-med-gren-scaled.jpg"
-            alt="Billede af ejerne med deres hund"
+            src="https://www.alexanderhusumsantis.com/wp-content/uploads/2023/09/hund-med-gren-scaled.jpg"
+            alt="Hund løber med en gren"
           />
         </div>
       </div>
@@ -100,16 +99,16 @@
       <div class="service-pension-flex">
         <div class="service-pension-image">
           <img
-            src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/gard-1-scaled.jpg"
-            alt="Billede af ejerne med deres hund"
+            src="https://www.alexanderhusumsantis.com/wp-content/uploads/2023/09/gard-1-scaled.jpg"
+            alt="Billede af Sejr & Davidsens gård"
           />
         </div>
         <div class="service-pension-text">
           <h2>Pension</h2>
           <p>
-                I vores adoptionstjeneste tror vi på at give herreløse dyr en ny start på livet. Vores dedikerede
-                team arbejder hårdt for at matche kærlige familier med kæledyr, der længes efter et kærligt hjem. Når du vælger at adoptere gennem os, giver du ikke bare et kæledyr en chance, men du bliver også en del af vores hjertevarme fællesskab. Vi tror på, at ethvert dyr fortjener kærlighed og en chance for at trives, og vi er her for at hjælpe dig med at finde din perfekte følgesvend.I vores
-                adoptionstjeneste tror vi på at give herreløse dyr en ny start på livet. Vores dedikerede team arbejder hårdt for at matche kærlige familier med kæledyr, der længes efter et kærligt hjem. Når du vælger at adoptere gennem os, giver du ikke bare et kæledyr en chance, men du bliver også en del af vores hjertevarme fællesskab. Vi tror på, at ethvert dyr fortjener kærlighed og en chance for at trives, og vi er her for at hjælpe dig med at finde din perfekte følgesvend.
+          Når dit liv kalder på nye eventyr og oplevelser, så mener vi at det er vigtigt at have et sted hvor dit kæledyr kan få den samme kærlighed som du giver dem. Vi forstår nemlig dine kæledyrs behov og den kærlighed som du har til dem. 
+
+          Vores team består nemlig af nogle helt unikke dyreelskere der er passionerede for at jeres kæledyr har det godt hos. Vi tilpasser altid vores pleje til dit kæledyrs behov. Vi har et stort udendørs areal hvor de kan opholde sig dagen lang, samt nogle rolige indendørs arealer. 
           </p>
         </div>
 
@@ -121,20 +120,17 @@
         <div class="service-adoption-text">
           <h2>Adfærdstræning</h2>
           <p>
-                I vores adoptionstjeneste tror vi på at give herreløse dyr en ny start på livet. Vores dedikerede
-                team arbejder hårdt for at matche kærlige familier med kæledyr, der længes efter et kærligt hjem. Når du vælger at adoptere gennem os, giver du ikke bare et kæledyr en chance, men du bliver også en del af vores hjertevarme fællesskab. Vi tror på, at ethvert dyr fortjener kærlighed og en chance for at trives, og vi er her for at hjælpe dig med at finde din perfekte følgesvend.I vores
-                adoptionstjeneste tror vi på at give herreløse dyr en ny start på livet. Vores dedikerede team arbejder hårdt for at matche kærlige familier med kæledyr, der længes efter et kærligt hjem. Når du vælger at adoptere gennem os, giver du ikke bare et kæledyr en chance, men du bliver også en del af vores hjertevarme fællesskab. Vi tror på, at ethvert dyr fortjener kærlighed og en chance for at trives, og vi er her for at hjælpe dig med at finde din perfekte følgesvend.
+            Vi tilbyder et totalt skræddersyet adfærdstræningsprogram til dine kæledyr. Vores fantastiske team af erfarne trænere har dedikeret det tid til at give dine kæledyr den træning som præcist dit kæledyr har brug for. Uanset hvad det drejer sig om, så har vores eksperter en løsning. 
+
+            Hvert kæledyr er unikt, og derfor tilbyder vi disse skræddersyet programmer. Vores erfaring gør at vi ved lige hvad der skal til. Vi arbejder samtidig på at dig og dit kæledyr skal have et unikt forhold. 
           </p>
         </div>
         <div class="service-adoption-image">
           <img
-            src="http://sejr-og-davidsen.local/wp-content/uploads/2023/09/adfaerdstraening-scaled.jpg"
-            alt="Billede af ejerne med deres hund"
+            src="https://www.alexanderhusumsantis.com/wp-content/uploads/2023/09/adfaerdstraening-scaled.jpg"
+            alt="Ejer træner med sin hund"
           />
         </div>
       </div>
     </section>
-</body>
-<?php get_footer(); ?>
-
-</html>
+    <?php get_footer(); ?>

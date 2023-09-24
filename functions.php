@@ -5,16 +5,4 @@ function dyrtema_files(){
 add_action('wp_enqueue_scripts', 'dyrtema_files');
 add_theme_support( 'admin-bar', array( 'callback' => '__return_false' ) );
 
-add_image_size('thumbnail-size', 300, 300);
-
-
-
-
-
-
-
-
-
-
-
 ?>
